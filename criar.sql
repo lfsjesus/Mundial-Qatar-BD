@@ -1,10 +1,11 @@
+DROP TABLE IF EXISTS Estadio;
 CREATE TABLE Estadio (
     Id INT CHECK (Id >= 0),
     nome TEXT NOT NULL,
     cidade TEXT NOT NULL,
     PRIMARY KEY (Id)
 );
-
+DROP TABLE IF EXISTS Evento;
 CREATE TABLE Evento (
     Id INT CHECK (Id >= 0),
     jogo INT,
@@ -12,7 +13,7 @@ CREATE TABLE Evento (
     PRIMARY KEY (Id),
     FOREIGN KEY (jogo) REFERENCES Jogo(Id) ON UPDATE CASCADE
 );
-
+DROP TABLE IF EXISTS Golo;
 CREATE TABLE Golo (
     evento INT,
     equipa INT,
@@ -23,13 +24,13 @@ CREATE TABLE Golo (
     FOREIGN KEY (equipa) REFERENCES Equipa(Id) ON UPDATE CASCADE,
     FOREIGN KEY (jogador) REFERENCES Jogador(Id) ON UPDATE CASCADE
 );
-
+DROP TABLE IF EXISTS Substituicao;
 CREATE TABLE Substituicao (
     evento INT,
     PRIMARY KEY (evento),
     FOREIGN KEY (evento) REFERENCES Evento(Id) ON UPDATE CASCADE
 );
-
+DROP TABLE IF EXISTS Sai;
 CREATE TABLE Sai (
     evento INT,
     jogador INT,
@@ -37,7 +38,7 @@ CREATE TABLE Sai (
     FOREIGN KEY (jogador) REFERENCES Jogador(Id) ON UPDATE CASCADE,
     FOREIGN KEY (evento) REFERENCES Evento(Id) ON UPDATE CASCADE
 );
-
+DROP TABLE IF EXISTS Entra;
 CREATE TABLE Entra (
     evento INT,
     jogador INT,
@@ -45,7 +46,7 @@ CREATE TABLE Entra (
     FOREIGN KEY (jogador) REFERENCES Jogador(Id) ON UPDATE CASCADE,
     FOREIGN KEY (evento) REFERENCES Evento(Id) ON UPDATE CASCADE
 );
-
+DROP TABLE IF EXISTS Cartao;
 CREATE TABLE Cartao (
     evento INT,
     jogador INT,
@@ -55,14 +56,14 @@ CREATE TABLE Cartao (
     FOREIGN KEY (jogador) REFERENCES Jogador(Id) ON UPDATE CASCADE,
     CHECK (cor ='amarelo' OR cor ='vermelho')
 );
-
+DROP TABLE IF EXISTS Grupo;
 CREATE TABLE Grupo(
     Id INT,
     letra CHAR(1),
     faseDeGrupo INT,
-    FOREIGN KEY (faseDeGrupo) REFERENCES FaseDeGrupos(Id) ON UPDATE CASCADE,
+    FOREIGN KEY (faseDeGrupo) REFERENCES FaseDeGrupos(Id) ON UPDATE CASCADE
 );
-
+DROP TABLE IF EXISTS Jornada;
 CREATE TABLE Jornada (
     Id INT,
     numero INT NOT NULL CHECK (numero >= 0),
@@ -70,13 +71,13 @@ CREATE TABLE Jornada (
     PRIMARY KEY (Id),
     FOREIGN KEY (grupo) REFERENCES Grupo(letra) ON UPDATE CASCADE
 );
-
+DROP TABLE IF EXISTS Equipa;
 CREATE TABLE Equipa (
     Id INT CHECK (Id >= 0),
     pais TEXT NOT NULL, 
     PRIMARY KEY (Id)
 );
-
+DROP TABLE IF EXISTS FaseDeGrupos;
 CREATE TABLE FaseDeGrupos (
     Id INT CHECK (Id >= 0),
     dataInicio DATE NOT NULL,
@@ -84,7 +85,7 @@ CREATE TABLE FaseDeGrupos (
     PRIMARY KEY (Id),
     CHECK (dataInicio <= dataFim)
 );
-
+DROP TABLE IF EXISTS FaseEliminatoria;
 CREATE TABLE FaseEliminatoria (
     Id INT CHECK (Id >= 0),
     dataInicio DATE NOT NULL,
@@ -93,7 +94,7 @@ CREATE TABLE FaseEliminatoria (
     PRIMARY KEY (Id),
     CHECK (dataInicio <= dataFim)
 );
-
+DROP TABLE IF EXISTS Jogo;
 CREATE TABLE Jogo (
     Id INT CHECK (Id >= 0),
     dia DATE NOT NULL,
@@ -107,7 +108,7 @@ CREATE TABLE Jogo (
     FOREIGN KEY (estadio) REFERENCES Estadio(Id) ON UPDATE CASCADE,
     CHECK ((jornada IS NOT NULL AND faseElim IS NULL) OR (jornada IS NULL AND faseElim IS NOT NULL))
 );
-
+DROP TABLE IF EXISTS Jogam;
 CREATE TABLE Jogam(
     jogo INT,
     equipa INT,
@@ -115,7 +116,7 @@ CREATE TABLE Jogam(
     FOREIGN KEY (jogo) REFERENCES Jogo(Id) ON UPDATE CASCADE,
     FOREIGN KEY (equipa) REFERENCES Equipa(Id) ON UPDATE CASCADE
 );
-
+DROP TABLE IF EXISTS ClassificacaoEliminatoria;
 CREATE TABLE ClassificacaoEliminatoria (
     faseElim INT,
     equipa INT,
@@ -124,7 +125,7 @@ CREATE TABLE ClassificacaoEliminatoria (
     FOREIGN KEY (faseElim) REFERENCES FaseEliminatoria(Id) ON UPDATE CASCADE,
     FOREIGN KEY (equipa) REFERENCES Equipa(Id) ON UPDATE CASCADE
 );
-
+DROP TABLE IF EXISTS PontuacaoJornada;
 CREATE TABLE PontuacaoJornada (
     jornada INT,
     equipa INT,
@@ -133,7 +134,7 @@ CREATE TABLE PontuacaoJornada (
     FOREIGN KEY (jornada) REFERENCES Jornada(Id) ON UPDATE CASCADE,
     FOREIGN KEY (equipa) REFERENCES Equipa(Id) ON UPDATE CASCADE
 );
-
+DROP TABLE IF EXISTS Jogador;
 CREATE TABLE Jogador (
     Id INT CHECK (Id >= 0),
     nome TEXT NOT NULL,
@@ -145,19 +146,19 @@ CREATE TABLE Jogador (
     PRIMARY KEY (Id),
     FOREIGN KEY equipa REFERENCES Equipa(Id) ON UPDATE CASCADE
 );
-
+DROP TABLE IF EXISTS Treinador;
 CREATE TABLE Treinador (
     Id INT CHECK (Id >= 0),
     nome TEXT NOT NULL,
     dataNascimento DATE NOT NULL,
     nacionalidade TEXT NOT NULL,
     tipo TEXT NOT NULL,
-    EquipaID INT,
+    equipa INT,
     PRIMARY KEY (Id),
-    FOREIGN KEY (EquipaID) REFERENCES Equipa(Id) ON UPDATE CASCADE,
+    FOREIGN KEY (equipa) REFERENCES Equipa(Id) ON UPDATE CASCADE,
     CHECK (tipo ='principal' OR tipo ='adjunto')
 );
-
+DROP TABLE IF EXISTS Arbitro;
 CREATE TABLE Arbitro (
     Id INT CHECK (Id >= 0),
     nome TEXT NOT NULL,
@@ -165,7 +166,7 @@ CREATE TABLE Arbitro (
     nacionalidade TEXT NOT NULL, Tipo TEXT,
     PRIMARY KEY (Id)
 );
-
+DROP TABLE IF EXISTS TipoArbitro;
 CREATE TABLE TipoArbitro (
     jogo INT,
     arbitro INT,
