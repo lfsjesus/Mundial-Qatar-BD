@@ -18,11 +18,12 @@ CREATE TABLE Golo (
     evento INT,
     equipa INT,
     jogador INT,
-    tipo TEXT NOT NULL,
+    tipo TEXT NOT NULL CHECK (tipo IN ('normal', 'penalti', 'auto-golo', 'assistencia')), 
     PRIMARY KEY (evento),
     FOREIGN KEY (evento) REFERENCES Evento(Id) ON UPDATE CASCADE,
     FOREIGN KEY (equipa) REFERENCES Equipa(Id) ON UPDATE CASCADE,
     FOREIGN KEY (jogador) REFERENCES Jogador(Id) ON UPDATE CASCADE
+    
 );
 DROP TABLE IF EXISTS Substituicao;
 CREATE TABLE Substituicao (
@@ -59,22 +60,23 @@ CREATE TABLE Cartao (
 DROP TABLE IF EXISTS Grupo;
 CREATE TABLE Grupo(
     Id INT,
-    letra CHAR(1),
+    letra CHAR(1) UNIQUE,
     faseDeGrupo INT,
+    PRIMARY KEY (Id),
     FOREIGN KEY (faseDeGrupo) REFERENCES FaseDeGrupos(Id) ON UPDATE CASCADE
 );
 DROP TABLE IF EXISTS Jornada;
 CREATE TABLE Jornada (
     Id INT,
     numero INT NOT NULL CHECK (numero >= 0),
-    grupo CHAR(1),
+    grupo INT,
     PRIMARY KEY (Id),
-    FOREIGN KEY (grupo) REFERENCES Grupo(letra) ON UPDATE CASCADE
+    FOREIGN KEY (grupo) REFERENCES Grupo(Id) ON UPDATE CASCADE
 );
 DROP TABLE IF EXISTS Equipa;
 CREATE TABLE Equipa (
     Id INT CHECK (Id >= 0),
-    pais TEXT NOT NULL, 
+    pais TEXT NOT NULL UNIQUE, 
     PRIMARY KEY (Id)
 );
 DROP TABLE IF EXISTS FaseDeGrupos;
@@ -153,7 +155,7 @@ CREATE TABLE Treinador (
     dataNascimento DATE NOT NULL,
     nacionalidade TEXT NOT NULL,
     tipo TEXT NOT NULL,
-    equipa INT,INSERT INTO Arbitro (Id, nome, dataNascimento, nacionalidade, Tipo)
+    equipa INT,
     PRIMARY KEY (Id),
     FOREIGN KEY (equipa) REFERENCES Equipa(Id) ON UPDATE CASCADE,
     CHECK (tipo ='principal' OR tipo ='adjunto')
@@ -163,13 +165,14 @@ CREATE TABLE Arbitro (
     Id INT CHECK (Id >= 0),
     nome TEXT NOT NULL,
     dataNascimento DATE NOT NULL,
-    nacionalidade TEXT NOT NULL, Tipo TEXT,
+    nacionalidade TEXT NOT NULL,
     PRIMARY KEY (Id)
 );
 DROP TABLE IF EXISTS TipoArbitro;
 CREATE TABLE TipoArbitro (
     jogo INT,
     arbitro INT,
+    tipo TEXT CHECK (tipo ='principal' OR tipo ='adjunto' OR tipo ='video'),
     PRIMARY KEY (jogo, arbitro),
     FOREIGN KEY (jogo) REFERENCES Jogo(Id) ON UPDATE CASCADE,
     FOREIGN KEY (arbitro) REFERENCES Arbitro(Id) ON UPDATE CASCADE
