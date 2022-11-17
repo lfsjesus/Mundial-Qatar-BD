@@ -116,10 +116,10 @@ CREATE TABLE Jogam(
     FOREIGN KEY (equipa) REFERENCES Equipa(Id) ON UPDATE CASCADE
 );
 
-CREATE TABLE PontuacaoEliminatoria (
+CREATE TABLE ClassificacaoEliminatoria (
     faseElim INT,
     equipa INT,
-    pontos INT CHECK (pontos >= 0),
+    posicao INT CHECK (posicao <= 16 AND posicao >= 1),
     PRIMARY KEY (faseElim,equipa),
     FOREIGN KEY (faseElim) REFERENCES FaseEliminatoria(Id) ON UPDATE CASCADE,
     FOREIGN KEY (equipa) REFERENCES Equipa(Id) ON UPDATE CASCADE
