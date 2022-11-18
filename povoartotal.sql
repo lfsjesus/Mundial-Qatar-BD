@@ -129,6 +129,7 @@ INSERT INTO FaseEliminatoria VALUES (2, '2018-07-06' ,'2018-07-07', 'quartos');
 INSERT INTO FaseEliminatoria VALUES (3, '2018-07-10' ,'2018-07-11', 'meias');
 INSERT INTO FaseEliminatoria VALUES (4, '2018-07-14' ,'2018-07-15', 'final');
 
+/* Oitavos de final */
 
 INSERT INTO ClassificacaoEliminatoria (faseElim, equipa, posicao)
 VALUES (
@@ -247,6 +248,120 @@ VALUES (
     7, /* Inglaterra */
     2
   );
+
+
+/*Quartos de final*/
+
+/* 1º lugar */
+INSERT INTO ClassificacaoEliminatoria (faseElim, equipa, posicao) 
+VALUES (2 /*Quartos*/, 2 /* Franca */, 1);
+
+INSERT INTO ClassificacaoEliminatoria (faseElim, equipa, posicao) 
+VALUES (2 /*Quartos*/, 9 /* Belgica */, 1);
+
+INSERT INTO ClassificacaoEliminatoria (faseElim, equipa, posicao) 
+VALUES (2 /*Quartos*/, 12 /* Croacia */, 1);
+
+INSERT INTO ClassificacaoEliminatoria (faseElim, equipa, posicao) 
+VALUES (2 /*Quartos*/, 7 /* Inglaterra */, 1);
+
+/* 2º lugar */
+INSERT INTO ClassificacaoEliminatoria (faseElim, equipa, posicao) 
+VALUES (2 /*Quartos*/, 29 /* Uruguai */, 2);
+
+INSERT INTO ClassificacaoEliminatoria (faseElim, equipa, posicao) 
+VALUES (2 /*Quartos*/, 28 /* Brasil */, 2);
+
+INSERT INTO ClassificacaoEliminatoria (faseElim, equipa, posicao) 
+VALUES (2 /*Quartos*/, 1 /* Russia */, 2);
+
+INSERT INTO ClassificacaoEliminatoria (faseElim, equipa, posicao) 
+VALUES (2 /*Quartos*/, 13 /* Suecia */, 2);
+
+/* 3º lugar */
+INSERT INTO ClassificacaoEliminatoria (faseElim, equipa, posicao) 
+VALUES (2 /*Quartos*/, 30 /* Argentina */, 3);
+
+INSERT INTO ClassificacaoEliminatoria (faseElim, equipa, posicao) 
+VALUES (2 /*Quartos*/, 3 /* Portugal */, 3);
+
+INSERT INTO ClassificacaoEliminatoria (faseElim, equipa, posicao) 
+VALUES (2 /*Quartos*/, 25 /* Mexico */, 3);
+
+INSERT INTO ClassificacaoEliminatoria (faseElim, equipa, posicao) 
+VALUES (2 /*Quartos*/, 17 /* Japao */, 3);
+
+INSERT INTO ClassificacaoEliminatoria (faseElim, equipa, posicao) 
+VALUES (2 /*Quartos*/, 8 /* Espanha */, 3);
+
+INSERT INTO ClassificacaoEliminatoria (faseElim, equipa, posicao) 
+VALUES (2 /*Quartos*/, 14 /* Dinamarca */, 3);
+
+INSERT INTO ClassificacaoEliminatoria (faseElim, equipa, posicao) 
+VALUES (2 /*Quartos*/, 11 /* Suica */, 3);
+
+INSERT INTO ClassificacaoEliminatoria (faseElim, equipa, posicao) 
+VALUES (2 /*Quartos*/, 31 /* Colombia */, 3);
+
+
+/* Meias-Finais */
+
+/* 1º lugar */
+
+INSERT INTO ClassificacaoEliminatoria (faseElim, equipa, posicao) 
+VALUES (3 /*Meias*/, 2 /* Franca */, 1);
+
+INSERT INTO ClassificacaoEliminatoria (faseElim, equipa, posicao) 
+VALUES (3 /*Meias*/, 12 /* Croacia */, 1);
+
+/* 2º lugar */
+
+INSERT INTO ClassificacaoEliminatoria (faseElim, equipa, posicao) 
+VALUES (3 /*Meias*/, 9 /* Belgica */, 2);
+
+INSERT INTO ClassificacaoEliminatoria (faseElim, equipa, posicao) 
+VALUES (3 /*Meias*/, 7 /* Inglaterra */, 2);
+
+/* 3º lugar */
+
+INSERT INTO ClassificacaoEliminatoria (faseElim, equipa, posicao) 
+VALUES (3 /*Meias*/, 29 /* Uruguai */, 3);
+
+INSERT INTO ClassificacaoEliminatoria (faseElim, equipa, posicao) 
+VALUES (3 /*Meias*/, 28 /* Brasil */, 3);
+
+INSERT INTO ClassificacaoEliminatoria (faseElim, equipa, posicao) 
+VALUES (3 /*Meias*/, 1 /* Russia */, 3);
+
+INSERT INTO ClassificacaoEliminatoria (faseElim, equipa, posicao) 
+VALUES (3 /*Meias*/, 13 /* Suecia */, 3);
+
+/* 4º lugar */
+
+INSERT INTO ClassificacaoEliminatoria (faseElim, equipa, posicao) 
+VALUES (3 /*Meias*/, 30 /* Argentina */, 4);
+
+INSERT INTO ClassificacaoEliminatoria (faseElim, equipa, posicao) 
+VALUES (3 /*Meias*/, 3 /* Portugal */, 4);
+
+INSERT INTO ClassificacaoEliminatoria (faseElim, equipa, posicao) 
+VALUES (3 /*Meias*/, 25 /* Mexico */, 4);
+
+INSERT INTO ClassificacaoEliminatoria (faseElim, equipa, posicao) 
+VALUES (3 /*Meias*/, 17 /* Japao */, 4);
+
+INSERT INTO ClassificacaoEliminatoria (faseElim, equipa, posicao) 
+VALUES (3 /*Meias*/, 8 /* Espanha */, 4);
+
+INSERT INTO ClassificacaoEliminatoria (faseElim, equipa, posicao) 
+VALUES (3 /*Meias*/, 14 /* Dinamarca */, 4);
+
+INSERT INTO ClassificacaoEliminatoria (faseElim, equipa, posicao) 
+VALUES (3 /*Meias*/, 11 /* Suica */, 4);
+
+INSERT INTO ClassificacaoEliminatoria (faseElim, equipa, posicao) 
+VALUES (3 /*Meias*/, 31 /* Colombia */, 4);
+
 INSERT INTO Grupo (Id, letra, faseDeGrupo) VALUES (1, 'A', 1);
 INSERT INTO Grupo (Id, letra, faseDeGrupo) VALUES (2, 'B', 1);
 INSERT INTO Grupo (Id, letra, faseDeGrupo) VALUES (3, 'C', 1);
