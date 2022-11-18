@@ -92,7 +92,7 @@ CREATE TABLE FaseEliminatoria (
     Id INT CHECK (Id >= 0),
     dataInicio DATE NOT NULL,
     dataFim DATE NOT NULL,
-    eliminatoria TEXT UNIQUE,
+    eliminatoria TEXT UNIQUE CHECK (eliminatoria IN ('oitavos', 'quartos', 'meias', 'final')),
     PRIMARY KEY (Id),
     CHECK (dataInicio <= dataFim)
 );
