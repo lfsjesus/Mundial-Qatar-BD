@@ -41,3 +41,12 @@ INSERT INTO FaseEliminatoria VALUES (1, '2018-06-30' ,'2018-07-03', 'oitavos');
 INSERT INTO FaseEliminatoria VALUES (2, '2018-07-06' ,'2018-07-07', 'quartos');
 INSERT INTO FaseEliminatoria VALUES (3, '2018-07-10' ,'2018-07-11', 'meias');
 INSERT INTO FaseEliminatoria VALUES (4, '2018-07-14' ,'2018-07-15', 'final');
+
+INSERT INTO Grupo (Id, letra, faseDeGrupo) VALUES (1, 'A', 1);
+INSERT INTO Grupo (Id, letra, faseDeGrupo) VALUES (2, 'B', 1);
+INSERT INTO Grupo (Id, letra, faseDeGrupo) VALUES (3, 'C', 1);
+INSERT INTO Grupo (Id, letra, faseDeGrupo) VALUES (4, 'D', 1);
+INSERT INTO Grupo (Id, letra, faseDeGrupo) VALUES (5, 'E', 1);
+INSERT INTO Grupo (Id, letra, faseDeGrupo) VALUES (6, 'F', 1);
+INSERT INTO Grupo (Id, letra, faseDeGrupo) VALUES (7, 'G', 1);
+INSERT INTO Grupo (Id, letra, faseDeGrupo) VALUES (8, 'H', 1);
