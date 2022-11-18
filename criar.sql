@@ -68,7 +68,7 @@ CREATE TABLE Grupo(
 DROP TABLE IF EXISTS Jornada;
 CREATE TABLE Jornada (
     Id INT NOT NULL,
-    numero INT NOT NULL CHECK (numero >= 0),
+    numero INT CHECK (numero > 0 AND numero <= 3),
     grupo INT NOT NULL,
     PRIMARY KEY (Id),
     FOREIGN KEY (grupo) REFERENCES Grupo(Id) ON UPDATE CASCADE
