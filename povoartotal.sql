@@ -833,7 +833,7 @@ INSERT INTO Jogam VALUES (64, 12);
 /*Arbitros*/
 
 /*Arbitro 1*/
-INSERT INTO Arbitro (Id, nome, dataNascimento, nacionalidade)
+INSERT INTO Arbitro (Id, nome, dataNascimento, pais)
 VALUES (1, 'Alireza Faghani', '1978-03-21', 'Ira');
 
 INSERT INTO TipoArbitro (jogo, arbitro, tipo)
@@ -851,7 +851,7 @@ VALUES (63, 1, 'principal');
 
 
 /*Arbitro 2*/
-INSERT INTO Arbitro (Id, nome, dataNascimento, nacionalidade)
+INSERT INTO Arbitro (Id, nome, dataNascimento, pais)
 VALUES (2, 'Mohammadreza Mansouri', '1978-04-23', 'Ira');
 
 INSERT INTO TipoArbitro (jogo, arbitro, tipo)
@@ -868,7 +868,7 @@ VALUES (63, 2, 'adjunto');
 
 
 /*Arbitro 3*/
-INSERT INTO Arbitro (Id, nome, dataNascimento, nacionalidade)
+INSERT INTO Arbitro (Id, nome, dataNascimento, pais)
 VALUES (3, 'Ravshan Irmatov', '1977-08-09', 'Uzbequistao');
 
 INSERT INTO TipoArbitro (jogo, arbitro, tipo)
@@ -879,7 +879,7 @@ VALUES (36, 3, 'principal');
 
 
 /*Arbitro 4*/
-INSERT INTO Arbitro (Id, nome, dataNascimento, nacionalidade)
+INSERT INTO Arbitro (Id, nome, dataNascimento, pais)
 VALUES (4, 'Abdukhamidullo Rasulov', '1976-01-10', 'Uniao Sovietica');
 
 INSERT INTO TipoArbitro (jogo, arbitro, tipo)
@@ -890,7 +890,7 @@ VALUES (36, 4, 'adjunto');
 
 
 /*Arbitro 5*/
-INSERT INTO Arbitro (Id, nome, dataNascimento, nacionalidade)
+INSERT INTO Arbitro (Id, nome, dataNascimento, pais)
 VALUES (5, 'Mohammed Abdulla', '1978-12-02', 'Dubai');
 
 INSERT INTO TipoArbitro (jogo, arbitro, tipo)
@@ -898,7 +898,7 @@ VALUES (22, 5, 'principal');
 
 
 /*Arbitro 6*/
-INSERT INTO Arbitro (Id, nome, dataNascimento, nacionalidade)
+INSERT INTO Arbitro (Id, nome, dataNascimento, pais)
 VALUES (6, 'Nawaf Shukralla', '1976-10-13', 'Japao');
 
 INSERT INTO TipoArbitro (jogo, arbitro, tipo)
@@ -909,7 +909,7 @@ VALUES (46, 6, 'principal');
 
 
 /*Arbitro 7*/
-INSERT INTO Arbitro (Id, nome, dataNascimento, nacionalidade)
+INSERT INTO Arbitro (Id, nome, dataNascimento, pais)
 VALUES (7, 'Malang Diedhiou', '1973-04-30', 'Senegal');
 
 INSERT INTO TipoArbitro (jogo, arbitro, tipo)
@@ -920,7 +920,7 @@ VALUES (34, 7, 'principal');
 
 
 /*Arbitro 8*/
-INSERT INTO Arbitro (Id, nome, dataNascimento, nacionalidade)
+INSERT INTO Arbitro (Id, nome, dataNascimento, pais)
 VALUES (8, 'Bakary Gassama', '1974-02-10', 'Gambia');
 
 INSERT INTO TipoArbitro (jogo, arbitro, tipo)
@@ -928,7 +928,7 @@ VALUES (6, 8, 'principal');
 
 
 /*Arbitro 9*/
-INSERT INTO Arbitro (Id, nome, dataNascimento, nacionalidade)
+INSERT INTO Arbitro (Id, nome, dataNascimento, pais)
 VALUES (9, 'Gehad Grisha', '1976-02-29', 'Egito');
 
 INSERT INTO TipoArbitro (jogo, arbitro, tipo)
@@ -936,7 +936,7 @@ VALUES (30, 9, 'principal');
 
 
 /*Arbitro 10*/
-INSERT INTO Arbitro (Id, nome, dataNascimento, nacionalidade)
+INSERT INTO Arbitro (Id, nome, dataNascimento, pais)
 VALUES (10, 'Janny Sikazwe', '1979-05-26', 'Zambia');
 
 INSERT INTO TipoArbitro (jogo, arbitro, tipo)
@@ -944,7 +944,7 @@ VALUES (14, 10, 'principal');
 
 
 /*Arbitro 11*/
-INSERT INTO Arbitro (Id, nome, dataNascimento, nacionalidade)
+INSERT INTO Arbitro (Id, nome, dataNascimento, pais)
 VALUES (11, 'Joel Chicas', '1975-07-02', 'El Salvador');
 
 INSERT INTO TipoArbitro (jogo, arbitro, tipo)
@@ -952,7 +952,7 @@ VALUES (12, 11, 'principal');
 
 
 /*Arbitro 12*/
-INSERT INTO Arbitro (Id, nome, dataNascimento, nacionalidade)
+INSERT INTO Arbitro (Id, nome, dataNascimento, pais)
 VALUES (12, 'Mark Geiger', '1974-08-25', 'Estados Unidos');
 
 INSERT INTO TipoArbitro (jogo, arbitro, tipo)
@@ -960,7 +960,7 @@ VALUES (19, 12, 'principal');
 
 
 /*Arbitro 13*/
-INSERT INTO Arbitro (Id, nome, dataNascimento, nacionalidade)
+INSERT INTO Arbitro (Id, nome, dataNascimento, pais)
 VALUES (13, 'Joe Fletcher', '1976-09-10', 'Ontario');
 
 INSERT INTO TipoArbitro (jogo, arbitro, tipo)
@@ -968,7 +968,7 @@ VALUES (19, 13, 'adjunto');
 
 
 /*Arbitro 14*/
-INSERT INTO Arbitro (Id, nome, dataNascimento, nacionalidade)
+INSERT INTO Arbitro (Id, nome, dataNascimento, pais)
 VALUES (14, 'Jair Marrufo', '1977-06-07', 'Estados Unidos');
 
 INSERT INTO TipoArbitro (jogo, arbitro, tipo)
@@ -976,7 +976,7 @@ VALUES (29, 14, 'principal');
 
 
 /*Arbitro 15*/
-INSERT INTO Arbitro (Id, nome, dataNascimento, nacionalidade)
+INSERT INTO Arbitro (Id, nome, dataNascimento, pais)
 VALUES (15, 'Enrique Villafane', '1974-03-20', 'Paraguai');
 
 INSERT INTO TipoArbitro (jogo, arbitro, tipo)
@@ -987,7 +987,7 @@ VALUES (35, 15, 'principal');
 
 
 /*Arbitro 16*/
-INSERT INTO Arbitro (Id, nome, dataNascimento, nacionalidade)
+INSERT INTO Arbitro (Id, nome, dataNascimento, pais)
 VALUES (16, 'Andres Soca', '1976-09-08', 'Uruguai');
 
 INSERT INTO TipoArbitro (jogo, arbitro, tipo)
@@ -999,7 +999,7 @@ VALUES (61, 16, 'principal');
 
 
 /*Arbitro 17*/
-INSERT INTO Arbitro (Id, nome, dataNascimento, nacionalidade)
+INSERT INTO Arbitro (Id, nome, dataNascimento, pais)
 VALUES (17, 'Mauricio Rodriguez', '1972-05-06', 'Uruguai');
 
 INSERT INTO TipoArbitro (jogo, arbitro, tipo)
@@ -1010,7 +1010,7 @@ VALUES (61, 17, 'adjunto');
 
 
 /*Arbitro 18*/
-INSERT INTO Arbitro (Id, nome, dataNascimento, nacionalidade)
+INSERT INTO Arbitro (Id, nome, dataNascimento, pais)
 VALUES (18, 'Cuneyt Cakir', '1976-11-23', 'Turquia');
 
 INSERT INTO TipoArbitro (jogo, arbitro, tipo)
@@ -1018,21 +1018,21 @@ VALUES (62, 18, 'principal');
 
 
 /*Arbitro 19*/
-INSERT INTO Arbitro (Id, nome, dataNascimento, nacionalidade)
+INSERT INTO Arbitro (Id, nome, dataNascimento, pais)
 VALUES (19, 'Clement Turpin', '1982-05-17', 'Franca');
 
 INSERT INTO TipoArbitro (jogo, arbitro, tipo)
 VALUES (41, 19, 'principal');
 
 /*Arbitro 20*/
-INSERT INTO Arbitro (Id, nome, dataNascimento, nacionalidade)
+INSERT INTO Arbitro (Id, nome, dataNascimento, pais)
 VALUES (20, 'Nestor Pitana', '1975-06-17', 'Argentina');
 
 INSERT INTO TipoArbitro (jogo, arbitro, tipo)
 VALUES (64, 20, 'principal');
 
 /*Arbitro 21*/
-INSERT INTO Arbitro (Id, nome, dataNascimento, nacionalidade)
+INSERT INTO Arbitro (Id, nome, dataNascimento, pais)
 VALUES (21, 'Tiago Martins', '1980-05-29', 'Portugal');
 
 INSERT INTO TipoArbitro (jogo, arbitro, tipo)
@@ -1040,7 +1040,7 @@ VALUES (64, 21, 'video');
 
 
 /*Arbitro 22*/
-INSERT INTO Arbitro (Id, nome, dataNascimento, nacionalidade)
+INSERT INTO Arbitro (Id, nome, dataNascimento, pais)
 VALUES (22, 'Gery Vargas', '1981-03-12', 'Bolivia');
 
 INSERT INTO TipoArbitro (jogo, arbitro, tipo)
@@ -1049,8 +1049,107 @@ VALUES (63, 22, 'video');
 
 
 /*Arbitro 23*/
-INSERT INTO Arbitro (Id, nome, dataNascimento, nacionalidade)
+INSERT INTO Arbitro (Id, nome, dataNascimento, pais)
 VALUES (23, 'Daniele Orsato', '1975-11-23', 'Italia');
 
 INSERT INTO TipoArbitro (jogo, arbitro, tipo)
 VALUES (62, 23, 'video');
+
+
+/*Treinadores*/
+
+INSERT INTO Treinador (Id, nome, dataNascimento, pais, equipa)
+VALUES (1, 'Stanislav Cherchesov', '1964-01-01', 'Russia', 1);
+
+INSERT INTO Treinador (Id, nome, dataNascimento, pais, equipa)
+VALUES (2, 'Didier Deschamps', '1968-04-15', 'Franca', 2);
+
+INSERT INTO Treinador (Id, nome, dataNascimento, pais, equipa)
+VALUES (3, 'Fernando Santos', '1961-09-20', 'Portugal', 3);
+
+INSERT INTO Treinador (Id, nome, dataNascimento, pais, equipa)
+VALUES (4, 'Joachim Low', '1960-06-03', 'Alemanha', 4);
+
+INSERT INTO Treinador (Id, nome, dataNascimento, pais, equipa)
+VALUES (5, 'Mladen Krstajic', '1974-03-04', 'Serbia',  5);
+
+INSERT INTO Treinador (Id, nome, dataNascimento, pais, equipa)
+VALUES (6, 'Adam Nawalka', '1957-10-23', 'Polonia', 6);
+
+INSERT INTO Treinador (Id, nome, dataNascimento, pais, equipa)
+VALUES (7, 'Gareth Southgate', '1970-09-03', 'Inglaterra', 7);
+
+INSERT INTO Treinador (Id, nome, dataNascimento, pais, equipa)
+VALUES (8, 'Fernando Hierro', '1968-03-23', 'Espanha', 8);
+
+INSERT INTO Treinador (Id, nome, dataNascimento, pais, equipa)
+VALUES (9, 'Roberto Martinez', '1973-07-13', 'Espanha', 9);
+
+INSERT INTO Treinador (Id, nome, dataNascimento, pais, equipa)
+VALUES (10, 'Heimir Hallgrimsson', '1967-06-10', 'Islandia', 10);
+
+INSERT INTO Treinador (Id, nome, dataNascimento, pais, equipa)
+VALUES (11, 'Vladimir Petkovic', '1963-08-15', 'Croacia', 11);
+
+INSERT INTO Treinador (Id, nome, dataNascimento, pais, equipa)
+VALUES (12, 'Zlatko Dalic', '1966-10-26', 'Croacia', 12);
+
+INSERT INTO Treinador (Id, nome, dataNascimento, pais, equipa)
+VALUES (13, 'Janne Andersson', '1962-09-29', 'Suecia', 13);
+
+INSERT INTO Treinador (Id, nome, dataNascimento, pais, equipa)
+VALUES (14, 'Age Hareide', '1953-09-23', 'Dinamarca', 14);
+
+INSERT INTO Treinador (Id, nome, dataNascimento, pais, equipa)
+VALUES (15, 'Carlos Queiroz', '1953-03-01', 'Portugal', 15);
+
+INSERT INTO Treinador (Id, nome, dataNascimento, pais, equipa)
+VALUES (16, 'Shin Tae-yong', '1970-10-11', 'Coreia do Sul', 16);
+
+INSERT INTO Treinador (Id, nome, dataNascimento, pais, equipa)
+VALUES (17, 'Akira Nishino', '1955-04-07', 'Japao', 17);
+
+INSERT INTO Treinador (Id, nome, dataNascimento, pais, equipa)
+VALUES (18, 'Juan Antonio Pizzi', '1968-06-07', 'Argentina', 18);
+
+INSERT INTO Treinador (Id, nome, dataNascimento, pais, equipa)
+VALUES (19, 'Bert van Marwijk', '1952-05-19', 'Paises Baixos', 19);
+
+INSERT INTO Treinador (Id, nome, dataNascimento, pais, equipa)
+VALUES (20, 'Nabil Maaloul', '1962-12-25', 'Tunisia', 20);
+
+INSERT INTO Treinador (Id, nome, dataNascimento, pais, equipa)
+VALUES (21, 'Gernot Rohr', '1953-06-28', 'Alemanha', 21);
+
+INSERT INTO Treinador (Id, nome, dataNascimento, pais, equipa)
+VALUES (22, 'Herve Renard', '1968-09-30', 'Franca', 22);
+
+INSERT INTO Treinador (Id, nome, dataNascimento, pais, equipa)
+VALUES (23, 'Aliou Cisse', '1976-03-24', 'Senegal', 23);
+
+INSERT INTO Treinador (Id, nome, dataNascimento, pais, equipa)
+VALUES (24, 'Hector Cuper', '1955-11-16', 'Argentina', 24);
+
+INSERT INTO Treinador (Id, nome, dataNascimento, pais, equipa)
+VALUES (25, 'Juan Carlos Osorio', '1961-06-08', 'Colombia', 25);
+
+INSERT INTO Treinador (Id, nome, dataNascimento, pais, equipa)
+VALUES (26, 'Oscar Ramirez', '1964-12-08', 'Costa Rica', 26);
+
+INSERT INTO Treinador (Id, nome, dataNascimento, pais, equipa)
+VALUES (27, 'Hernan Dario Gomez', '1956-02-03', 'Colombia', 27);
+
+INSERT INTO Treinador (Id, nome, dataNascimento, pais, equipa)
+VALUES (28, 'Tite', '1961-05-25', 'Brasil', 28);
+
+INSERT INTO Treinador (Id, nome, dataNascimento, pais, equipa)
+VALUES (29, 'Oscar Tabarez', '1947-03-03', 'Uruguai', 29);
+
+INSERT INTO Treinador (Id, nome, dataNascimento, pais, equipa)
+VALUES (30, 'Jorge Sampaoli', '1960-03-13', 'Argentina', 30);
+
+INSERT INTO Treinador (Id, nome, dataNascimento, pais, equipa)
+VALUES (31, 'Jose Pekerman', '1949-09-03', 'Argentina', 31);
+
+INSERT INTO Treinador (Id, nome, dataNascimento, pais, equipa)
+VALUES (32, 'Ricardo Gareca', '1958-02-10', 'Argentina', 32);
