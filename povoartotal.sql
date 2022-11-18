@@ -1243,7 +1243,7 @@ INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa)
 VALUES (59, 'Jonas Hector', '1990-05-27', 'Alemanha', 'FC Koln', 3, 4);
 
 INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa)
-VALUES (60, 'Toni Kroos', '1990-01-04', 'Alemanha', 'Real Madrid Club de Futbol', 8, 4);
+VALUES (60, 'Toni Kroos', '1990-01-04', 'Alemanha', 'Real Madrid', 8, 4);
 
 INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa)
 VALUES (61, 'Leon Goretzka', '1995-02-06', 'Alemanha', 'FC Bayern Munchen', 14, 4);
