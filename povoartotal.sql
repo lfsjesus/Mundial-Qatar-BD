@@ -828,3 +828,229 @@ INSERT INTO Jogam VALUES (63, 9);
 INSERT INTO Jogam VALUES (63, 7);
 INSERT INTO Jogam VALUES (64, 2);
 INSERT INTO Jogam VALUES (64, 12);
+
+
+/*Arbitros*/
+
+/*Arbitro 1*/
+INSERT INTO Arbitro (Id, nome, dataNascimento, nacionalidade)
+VALUES (1, 'Alireza Faghani', '1978-03-21', 'Ira');
+
+INSERT INTO TipoArbitro (jogo, arbitro, tipo)
+VALUES (11, 1, 'principal');
+
+INSERT INTO TipoArbitro (jogo, arbitro, tipo)
+VALUES (42, 1, 'principal');
+
+INSERT INTO TipoArbitro (jogo, arbitro, tipo)
+VALUES (49, 1, 'principal');
+
+INSERT INTO TipoArbitro (jogo, arbitro, tipo)
+VALUES (63, 1, 'principal');
+
+
+
+/*Arbitro 2*/
+INSERT INTO Arbitro (Id, nome, dataNascimento, nacionalidade)
+VALUES (2, 'Mohammadreza Mansouri', '1978-04-23', 'Ira');
+
+INSERT INTO TipoArbitro (jogo, arbitro, tipo)
+VALUES (11, 2, 'adjunto');
+
+INSERT INTO TipoArbitro (jogo, arbitro, tipo)
+VALUES (42, 2, 'adjunto');
+
+INSERT INTO TipoArbitro (jogo, arbitro, tipo)
+VALUES (49, 2, 'adjunto');
+
+INSERT INTO TipoArbitro (jogo, arbitro, tipo)
+VALUES (63, 2, 'adjunto');
+
+
+/*Arbitro 3*/
+INSERT INTO Arbitro (Id, nome, dataNascimento, nacionalidade)
+VALUES (3, 'Ravshan Irmatov', '1977-08-09', 'Uzbequistao');
+
+INSERT INTO TipoArbitro (jogo, arbitro, tipo)
+VALUES (23, 3, 'principal');
+
+INSERT INTO TipoArbitro (jogo, arbitro, tipo)
+VALUES (36, 3, 'principal');
+
+
+/*Arbitro 4*/
+INSERT INTO Arbitro (Id, nome, dataNascimento, nacionalidade)
+VALUES (4, 'Abdukhamidullo Rasulov', '1976-01-10', 'Uniao Sovietica');
+
+INSERT INTO TipoArbitro (jogo, arbitro, tipo)
+VALUES (23, 4, 'adjunto');
+
+INSERT INTO TipoArbitro (jogo, arbitro, tipo)
+VALUES (36, 4, 'adjunto');
+
+
+/*Arbitro 5*/
+INSERT INTO Arbitro (Id, nome, dataNascimento, nacionalidade)
+VALUES (5, 'Mohammed Abdulla', '1978-12-02', 'Dubai');
+
+INSERT INTO TipoArbitro (jogo, arbitro, tipo)
+VALUES (22, 5, 'principal');
+
+
+/*Arbitro 6*/
+INSERT INTO Arbitro (Id, nome, dataNascimento, nacionalidade)
+VALUES (6, 'Nawaf Shukralla', '1976-10-13', 'Japao');
+
+INSERT INTO TipoArbitro (jogo, arbitro, tipo)
+VALUES (16, 6, 'principal');
+
+INSERT INTO TipoArbitro (jogo, arbitro, tipo)
+VALUES (46, 6, 'principal');
+
+
+/*Arbitro 7*/
+INSERT INTO Arbitro (Id, nome, dataNascimento, nacionalidade)
+VALUES (7, 'Malang Diedhiou', '1973-04-30', 'Senegal');
+
+INSERT INTO TipoArbitro (jogo, arbitro, tipo)
+VALUES (9, 7, 'principal');
+
+INSERT INTO TipoArbitro (jogo, arbitro, tipo)
+VALUES (34, 7, 'principal');
+
+
+/*Arbitro 8*/
+INSERT INTO Arbitro (Id, nome, dataNascimento, nacionalidade)
+VALUES (8, 'Bakary Gassama', '1974-02-10', 'Gambia');
+
+INSERT INTO TipoArbitro (jogo, arbitro, tipo)
+VALUES (6, 8, 'principal');
+
+
+/*Arbitro 9*/
+INSERT INTO Arbitro (Id, nome, dataNascimento, nacionalidade)
+VALUES (9, 'Gehad Grisha', '1976-02-29', 'Egito');
+
+INSERT INTO TipoArbitro (jogo, arbitro, tipo)
+VALUES (30, 9, 'principal');
+
+
+/*Arbitro 10*/
+INSERT INTO Arbitro (Id, nome, dataNascimento, nacionalidade)
+VALUES (10, 'Janny Sikazwe', '1979-05-26', 'Zambia');
+
+INSERT INTO TipoArbitro (jogo, arbitro, tipo)
+VALUES (14, 10, 'principal');
+
+
+/*Arbitro 11*/
+INSERT INTO Arbitro (Id, nome, dataNascimento, nacionalidade)
+VALUES (11, 'Joel Chicas', '1975-07-02', 'El Salvador');
+
+INSERT INTO TipoArbitro (jogo, arbitro, tipo)
+VALUES (12, 11, 'principal');
+
+
+/*Arbitro 12*/
+INSERT INTO Arbitro (Id, nome, dataNascimento, nacionalidade)
+VALUES (12, 'Mark Geiger', '1974-08-25', 'Estados Unidos');
+
+INSERT INTO TipoArbitro (jogo, arbitro, tipo)
+VALUES (19, 12, 'principal');
+
+
+/*Arbitro 13*/
+INSERT INTO Arbitro (Id, nome, dataNascimento, nacionalidade)
+VALUES (13, 'Joe Fletcher', '1976-09-10', 'Ontario');
+
+INSERT INTO TipoArbitro (jogo, arbitro, tipo)
+VALUES (19, 13, 'adjunto');
+
+
+/*Arbitro 14*/
+INSERT INTO Arbitro (Id, nome, dataNascimento, nacionalidade)
+VALUES (14, 'Jair Marrufo', '1977-06-07', 'Estados Unidos');
+
+INSERT INTO TipoArbitro (jogo, arbitro, tipo)
+VALUES (29, 14, 'principal');
+
+
+/*Arbitro 15*/
+INSERT INTO Arbitro (Id, nome, dataNascimento, nacionalidade)
+VALUES (15, 'Enrique Villafane', '1974-03-20', 'Paraguai');
+
+INSERT INTO TipoArbitro (jogo, arbitro, tipo)
+VALUES (17, 15, 'principal');
+
+INSERT INTO TipoArbitro (jogo, arbitro, tipo)
+VALUES (35, 15, 'principal');
+
+
+/*Arbitro 16*/
+INSERT INTO Arbitro (Id, nome, dataNascimento, nacionalidade)
+VALUES (16, 'Andres Soca', '1976-09-08', 'Uruguai');
+
+INSERT INTO TipoArbitro (jogo, arbitro, tipo)
+VALUES (5, 16, 'principal');
+
+INSERT INTO TipoArbitro (jogo, arbitro, tipo)
+VALUES (61, 16, 'principal');
+
+
+
+/*Arbitro 17*/
+INSERT INTO Arbitro (Id, nome, dataNascimento, nacionalidade)
+VALUES (17, 'Mauricio Rodriguez', '1972-05-06', 'Uruguai');
+
+INSERT INTO TipoArbitro (jogo, arbitro, tipo)
+VALUES (5, 17, 'adjunto');
+
+INSERT INTO TipoArbitro (jogo, arbitro, tipo)
+VALUES (61, 17, 'adjunto');
+
+
+/*Arbitro 18*/
+INSERT INTO Arbitro (Id, nome, dataNascimento, nacionalidade)
+VALUES (18, 'Cuneyt Cakir', '1976-11-23', 'Turquia');
+
+INSERT INTO TipoArbitro (jogo, arbitro, tipo)
+VALUES (62, 18, 'principal');
+
+
+/*Arbitro 19*/
+INSERT INTO Arbitro (Id, nome, dataNascimento, nacionalidade)
+VALUES (19, 'Clement Turpin', '1982-05-17', 'Franca');
+
+INSERT INTO TipoArbitro (jogo, arbitro, tipo)
+VALUES (41, 19, 'principal');
+
+/*Arbitro 20*/
+INSERT INTO Arbitro (Id, nome, dataNascimento, nacionalidade)
+VALUES (20, 'Nestor Pitana', '1975-06-17', 'Argentina');
+
+INSERT INTO TipoArbitro (jogo, arbitro, tipo)
+VALUES (64, 20, 'principal');
+
+/*Arbitro 21*/
+INSERT INTO Arbitro (Id, nome, dataNascimento, nacionalidade)
+VALUES (21, 'Tiago Martins', '1980-05-29', 'Portugal');
+
+INSERT INTO TipoArbitro (jogo, arbitro, tipo)
+VALUES (64, 21, 'video');
+
+
+/*Arbitro 22*/
+INSERT INTO Arbitro (Id, nome, dataNascimento, nacionalidade)
+VALUES (22, 'Gery Vargas', '1981-03-12', 'Bolivia');
+
+INSERT INTO TipoArbitro (jogo, arbitro, tipo)
+VALUES (63, 22, 'video');
+
+
+
+/*Arbitro 23*/
+INSERT INTO Arbitro (Id, nome, dataNascimento, nacionalidade)
+VALUES (23, 'Daniele Orsato', '1975-11-23', 'Italia');
+
+INSERT INTO TipoArbitro (jogo, arbitro, tipo)
+VALUES (62, 23, 'video');
