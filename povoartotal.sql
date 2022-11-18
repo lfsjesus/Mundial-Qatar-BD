@@ -1154,6 +1154,8 @@ VALUES (31, 'Jose Pekerman', '1949-09-03', 'Argentina', 31);
 INSERT INTO Treinador (Id, nome, dataNascimento, pais, equipa)
 VALUES (32, 'Ricardo Gareca', '1958-02-10', 'Argentina', 32);
 
+
+/* Jogadores */
 INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (1, 'Yury Gazinsky', '1989-07-20', 'Russia', 'Ural Yekaterinburg', 8, 1);
 INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (2, 'Denis Cheryshev', '1990-12-26', 'Russia', 'Venezia', 6, 1);
 INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (3, 'Artem Dzyuba', '1988-08-22', 'Russia', 'Zenit', 22, 1);
@@ -1200,3 +1202,168 @@ INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa)
 INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (44, 'Cedric Ricardo Alves Soares', '1991-08-31', 'Portugal', 'Southampton', 21, 3);
 INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (45, 'Pepe', '1983-02-26', 'Brasil', 'Porto', 3, 3);
 INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (46, 'Manuel Henrique Tavares Fernandes', '1986-02-05', 'Portugal', 'Lokomotiv', 4, 3);
+
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa)
+VALUES (47, 'Marco Reus', '1989-05-31', 'Alemanha', 'Borussia Dortmund', 11, 4);
+
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa)
+VALUES (48, 'Sami Khedira', '1987-04-04', 'Alemanha', 'Juventus', 6, 4);
+
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa)
+VALUES (49, 'Mario Gomez', '1985-07-10', 'Alemanha', 'Stuttgart', 23, 4);
+
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa)
+VALUES (50, 'Marvin Plattenhardt', '1992-01-26', 'Alemanha', 'Hertha BSC', 2, 4);
+
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa)
+VALUES (51, 'Sebastian Rudy', '1990-02-28', 'Alemanha', 'TSG 1899 Hoffenheim', 19, 4);
+
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa)
+VALUES (52, 'Thomas Muller', '1989-09-13', 'Alemanha', 'FC Bayern Munchen', 13, 4);
+
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa)
+VALUES (53, 'Mats Hummels', '1988-12-16', 'Alemanha', 'Borussia Dortmund', 5, 4);
+
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa)
+VALUES (54, 'Julian Brandt', '1996-05-02', 'Alemanha', 'Borussia Dortmund', 20, 4);
+
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa)
+VALUES (55, 'Timo Werner', '1996-03-06', 'Alemanha', 'RasenBallsport Leipzig', 9, 4);
+
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa)
+VALUES (56, 'Ilkay Gundogan', '1990-10-24', 'Alemanha', 'Manchester City Football Club', 21, 4);
+
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa)
+VALUES (57, 'Julian Draxler', '1993-09-20', 'Alemanha', 'Sport Lisboa e Benfica', 7, 4);
+
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa)
+VALUES (58, 'Jerome Boateng', '1988-09-03', 'Alemanha', 'Olympique Lyonnais', 17, 4);
+
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa)
+VALUES (59, 'Jonas Hector', '1990-05-27', 'Alemanha', 'FC Koln', 3, 4);
+
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa)
+VALUES (60, 'Toni Kroos', '1990-01-04', 'Alemanha', 'Real Madrid Club de Futbol', 8, 4);
+
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa)
+VALUES (61, 'Leon Goretzka', '1995-02-06', 'Alemanha', 'FC Bayern Munchen', 14, 4);
+
+
+/* Eventos */
+
+
+/* Substituicao */
+INSERT INTO Evento (Id, jogo, minuto)
+VALUES (50, 11, 60); 
+
+INSERT INTO Substituicao (evento)
+VALUES (50);
+
+INSERT INTO Entra (evento, jogador)
+VALUES (50, 47);
+
+INSERT INTO Sai (evento, jogador)
+VALUES (50, 48);
+
+
+/* Substituicao */
+INSERT INTO Evento (Id, jogo, minuto)
+VALUES (51, 11, 79); 
+
+INSERT INTO Substituicao (evento)
+VALUES (51);
+
+INSERT INTO Entra (evento, jogador)
+VALUES (51, 49);
+
+INSERT INTO Sai (evento, jogador)
+VALUES (51, 50);
+
+/* Cartao Amarelo */ 
+
+INSERT INTO Evento (Id, jogo, minuto)
+VALUES (52, 11, 83);
+
+INSERT INTO Cartao (evento, jogador, cor)
+VALUES (52, 52, 'amarelo');
+
+
+/* Cartao Amarelo */ 
+
+INSERT INTO Evento (Id, jogo, minuto)
+VALUES (53, 11, 84);
+
+INSERT INTO Cartao (evento, jogador, cor)
+VALUES (53, 53, 'amarelo');
+
+
+/* Substituicao */
+INSERT INTO Evento (Id, jogo, minuto)
+VALUES (54, 11, 86); 
+
+INSERT INTO Substituicao (evento)
+VALUES (54);
+
+INSERT INTO Entra (evento, jogador)
+VALUES (54, 54);
+
+INSERT INTO Sai (evento, jogador)
+VALUES (54, 55);
+
+
+/* Substituicao */
+INSERT INTO Evento (Id, jogo, minuto)
+VALUES (55, 28, 31); 
+
+INSERT INTO Substituicao (evento)
+VALUES (55);
+
+INSERT INTO Entra (evento, jogador)
+VALUES (55, 56);
+
+INSERT INTO Sai (evento, jogador)
+VALUES (55, 51);
+
+
+/* Substituicao */
+INSERT INTO Evento (Id, jogo, minuto)
+VALUES (56, 28, 46); 
+
+INSERT INTO Substituicao (evento)
+VALUES (56);
+
+INSERT INTO Entra (evento, jogador)
+VALUES (56, 49);
+
+INSERT INTO Sai (evento, jogador)
+VALUES (56, 57);
+
+
+/* Golo */
+INSERT INTO Evento (Id, jogo, minuto)
+VALUES (57, 28, 48);
+
+INSERT INTO Golo (evento, equipa, jogador, tipo)
+VALUES (57, 4, 47, 'assistencia');
+
+
+/* Cartao Amarelo */
+INSERT INTO Evento (Id, jogo, minuto)
+VALUES (58, 28, 71);
+
+INSERT INTO Cartao (evento, jogador, cor)
+VALUES (58, 58, 'amarelo');
+
+/* Cartao Vermelho */
+INSERT INTO Evento (Id, jogo, minuto)
+VALUES (59, 28, 82);
+
+INSERT INTO Cartao (evento, jogador, cor)
+VALUES (59, 58, 'vermelho');
+
+/* Golo */
+INSERT INTO Evento (Id, jogo, minuto)
+VALUES (60, 28, 95);
+
+INSERT INTO Golo (evento, equipa, jogador, tipo)
+VALUES (60, 4, 60, 'assistencia');
