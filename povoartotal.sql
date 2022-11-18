@@ -33,9 +33,11 @@ INSERT INTO Equipa (Id, pais) VALUES (30, 'Argentina');
 INSERT INTO Equipa (Id, pais) VALUES (31, 'Colombia');
 INSERT INTO Equipa (Id, pais) VALUES (32, 'Peru');
 
+
 INSERT INTO FaseDeGrupos (Id, dataInicio, dataFim)
-VALUES (
-    1,
-    '2018-06-14',
-    '2018-06-28'
-  );
+VALUES (1, '2018-06-14', '2018-06-28');
+
+INSERT INTO FaseEliminatoria VALUES (1, '2018-06-30' ,'2018-07-03', 'oitavos');
+INSERT INTO FaseEliminatoria VALUES (2, '2018-07-06' ,'2018-07-07', 'quartos');
+INSERT INTO FaseEliminatoria VALUES (3, '2018-07-10' ,'2018-07-11', 'meias');
+INSERT INTO FaseEliminatoria VALUES (4, '2018-07-14' ,'2018-07-15', 'final');
