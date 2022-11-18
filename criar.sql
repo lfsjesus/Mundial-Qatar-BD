@@ -60,7 +60,7 @@ CREATE TABLE Cartao (
 DROP TABLE IF EXISTS Grupo;
 CREATE TABLE Grupo(
     Id INT NOT NULL,
-    letra CHAR(1) UNIQUE NOT NULL,
+    letra CHAR(1) UNIQUE NOT NULL CHECK (letra IN ('A', 'B', 'C', 'D', 'E', 'F', 'G', 'H')),
     faseDeGrupo INT NOT NULL,
     PRIMARY KEY (Id),
     FOREIGN KEY (faseDeGrupo) REFERENCES FaseDeGrupos(Id) ON UPDATE CASCADE
