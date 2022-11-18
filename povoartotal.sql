@@ -33,9 +33,96 @@ INSERT INTO Equipa (Id, pais) VALUES (30, 'Argentina');
 INSERT INTO Equipa (Id, pais) VALUES (31, 'Colombia');
 INSERT INTO Equipa (Id, pais) VALUES (32, 'Peru');
 
+INSERT INTO Estadio (Id, nome, cidade)
+VALUES (
+    1,
+    'Luzhniki',
+    'Moscovo'
+  );
+
+INSERT INTO Estadio (Id, nome, cidade)
+VALUES (
+    2,
+    'Ekaterinburg',
+    'Ekaterinburg'
+  );  
+
+INSERT INTO Estadio (Id, nome, cidade)
+VALUES (
+    3,
+    'Sao Petersburgo',
+    'Sao Petersburgo'
+  );  
+
+INSERT INTO Estadio (Id, nome, cidade)
+VALUES (
+    4,
+    'Cosmos',
+    'Samara'
+  );  
+
+INSERT INTO Estadio (Id, nome, cidade)
+VALUES (
+    5,
+    'Volgogrado',
+    'Volgogrado'
+  );  
+
+INSERT INTO Estadio (Id, nome, cidade)
+VALUES (
+    6,
+    'Mordovia',
+    'Saransk'
+  );
+
+INSERT INTO Estadio (Id, nome, cidade)
+VALUES (
+    7,
+    'Rostov',
+    'Rostov'
+  );
+
+INSERT INTO Estadio (Id, nome, cidade)
+VALUES (
+    8,
+    'Nizhny Novgorod',
+    'Nizhny Novgorod'
+);
+
+INSERT INTO Estadio (Id, nome, cidade)
+VALUES (
+    9,
+    'Kaliningrado',
+    'Kaliningrado'
+);
+
+INSERT INTO Estadio (Id, nome, cidade)
+VALUES (
+    10,
+    'Spartak',
+    'Moscovo'
+);
+
+INSERT INTO Estadio (Id, nome, cidade)
+VALUES (
+    11,
+    'Kazan',
+    'Kazan'
+  );
+
+INSERT INTO Estadio (Id, nome, cidade)
+VALUES (
+    12,
+    'Fisht',
+    'Sochi'
+  );
 
 INSERT INTO FaseDeGrupos (Id, dataInicio, dataFim)
-VALUES (1, '2018-06-14', '2018-06-28');
+VALUES (
+    1,
+    '2018-06-14',
+    '2018-06-28'
+  );
 
 INSERT INTO FaseEliminatoria VALUES (1, '2018-06-30' ,'2018-07-03', 'oitavos');
 INSERT INTO FaseEliminatoria VALUES (2, '2018-07-06' ,'2018-07-07', 'quartos');
