@@ -141,7 +141,7 @@ CREATE TABLE Jogador (
     Id INT CHECK (Id >= 0),
     nome TEXT NOT NULL,
     dataNascimento DATE NOT NULL,
-    nacionalidade TEXT NOT NULL,
+    pais TEXT NOT NULL,
     clubeAtual TEXT NOT NULL,
     numero INT CHECK (numero >= 0),
     equipa INT NOT NULL,
@@ -153,19 +153,18 @@ CREATE TABLE Treinador (
     Id INT CHECK (Id >= 0),
     nome TEXT NOT NULL,
     dataNascimento DATE NOT NULL,
-    nacionalidade TEXT NOT NULL,
-    tipo TEXT NOT NULL,
+    pais TEXT NOT NULL,
     equipa INT NOT NULL,
     PRIMARY KEY (Id),
-    FOREIGN KEY (equipa) REFERENCES Equipa(Id) ON UPDATE CASCADE,
-    CHECK (tipo ='principal' OR tipo ='adjunto')
+    FOREIGN KEY (equipa) REFERENCES Equipa(Id) ON UPDATE CASCADE
 );
+
 DROP TABLE IF EXISTS Arbitro;
 CREATE TABLE Arbitro (
     Id INT CHECK (Id >= 0),
     nome TEXT NOT NULL,
     dataNascimento DATE NOT NULL,
-    nacionalidade TEXT NOT NULL,
+    pais TEXT NOT NULL,
     PRIMARY KEY (Id)
 );
 DROP TABLE IF EXISTS TipoArbitro;
@@ -177,4 +176,3 @@ CREATE TABLE TipoArbitro (
     FOREIGN KEY (jogo) REFERENCES Jogo(Id) ON UPDATE CASCADE,
     FOREIGN KEY (arbitro) REFERENCES Arbitro(Id) ON UPDATE CASCADE
 );
-
