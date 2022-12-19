@@ -28,25 +28,14 @@ CREATE TABLE Golo (
 DROP TABLE IF EXISTS Substituicao;
 CREATE TABLE Substituicao (
     evento INT NOT NULL,
+    jogadorEntra INT NOT NULL,
+    jogadorSai INT NOT NULL,
     PRIMARY KEY (evento),
-    FOREIGN KEY (evento) REFERENCES Evento(Id) ON UPDATE CASCADE
+    FOREIGN KEY (evento) REFERENCES Evento(Id) ON UPDATE CASCADE,
+    FOREIGN KEY (jogadorEntra) REFERENCES Jogador(Id) ON UPDATE CASCADE,
+    FOREIGN KEY (jogadorSai) REFERENCES Jogador(Id) ON UPDATE CASCADE
 );
-DROP TABLE IF EXISTS Sai;
-CREATE TABLE Sai (
-    evento INT NOT NULL,
-    jogador INT NOT NULL,
-    PRIMARY KEY (evento),
-    FOREIGN KEY (jogador) REFERENCES Jogador(Id) ON UPDATE CASCADE,
-    FOREIGN KEY (evento) REFERENCES Evento(Id) ON UPDATE CASCADE
-);
-DROP TABLE IF EXISTS Entra;
-CREATE TABLE Entra (
-    evento INT NOT NULL,
-    jogador INT NOT NULL,
-    PRIMARY KEY (evento),
-    FOREIGN KEY (jogador) REFERENCES Jogador(Id) ON UPDATE CASCADE,
-    FOREIGN KEY (evento) REFERENCES Evento(Id) ON UPDATE CASCADE
-);
+
 DROP TABLE IF EXISTS Cartao;
 CREATE TABLE Cartao (
     evento INT NOT NULL,
@@ -141,6 +130,7 @@ CREATE TABLE Jogador (
     Id INT CHECK (Id >= 0),
     nome TEXT NOT NULL,
     dataNascimento DATE NOT NULL,
+    idade GENERATED ALWAYS as (strftime('%Y', '2022-12-31') - strftime('%Y', dataNascimento)),
     pais TEXT NOT NULL,
     clubeAtual TEXT NOT NULL,
     numero INT CHECK (numero >= 0),
