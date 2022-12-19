@@ -295,39 +295,39 @@ INSERT INTO ClassificacaoEliminatoria (faseElim, equipa, posicao)
 VALUES (4 /*Final*/, 31 /* Colombia */, 6);
 
 
-INSERT INTO Grupo (Id, letra, faseDeGrupo) VALUES (1, 'A', 1);
-INSERT INTO Grupo (Id, letra, faseDeGrupo) VALUES (2, 'B', 1);
-INSERT INTO Grupo (Id, letra, faseDeGrupo) VALUES (3, 'C', 1);
-INSERT INTO Grupo (Id, letra, faseDeGrupo) VALUES (4, 'D', 1);
-INSERT INTO Grupo (Id, letra, faseDeGrupo) VALUES (5, 'E', 1);
-INSERT INTO Grupo (Id, letra, faseDeGrupo) VALUES (6, 'F', 1);
-INSERT INTO Grupo (Id, letra, faseDeGrupo) VALUES (7, 'G', 1);
-INSERT INTO Grupo (Id, letra, faseDeGrupo) VALUES (8, 'H', 1);
+INSERT INTO Grupo (letra, faseDeGrupo) VALUES ('A', 1);
+INSERT INTO Grupo (letra, faseDeGrupo) VALUES ('B', 1);
+INSERT INTO Grupo (letra, faseDeGrupo) VALUES ('C', 1);
+INSERT INTO Grupo (letra, faseDeGrupo) VALUES ('D', 1);
+INSERT INTO Grupo (letra, faseDeGrupo) VALUES ('E', 1);
+INSERT INTO Grupo (letra, faseDeGrupo) VALUES ('F', 1);
+INSERT INTO Grupo (letra, faseDeGrupo) VALUES ('G', 1);
+INSERT INTO Grupo (letra, faseDeGrupo) VALUES ('H', 1);
 
-INSERT INTO Jornada (Id, numero, grupo) VALUES (1, 1, 1);
-INSERT INTO Jornada (Id, numero, grupo) VALUES (2, 2, 1);
-INSERT INTO Jornada (Id, numero, grupo) VALUES (3, 3, 1);
-INSERT INTO Jornada (Id, numero, grupo) VALUES (4, 1, 2);
-INSERT INTO Jornada (Id, numero, grupo) VALUES (5, 2, 2);
-INSERT INTO Jornada (Id, numero, grupo) VALUES (6, 3, 2);
-INSERT INTO Jornada (Id, numero, grupo) VALUES (7, 1, 3);
-INSERT INTO Jornada (Id, numero, grupo) VALUES (8, 2, 3);
-INSERT INTO Jornada (Id, numero, grupo) VALUES (9, 3, 3);
-INSERT INTO Jornada (Id, numero, grupo) VALUES (10, 1, 4);
-INSERT INTO Jornada (Id, numero, grupo) VALUES (11, 2, 4);
-INSERT INTO Jornada (Id, numero, grupo) VALUES (12, 3, 4);
-INSERT INTO Jornada (Id, numero, grupo) VALUES (13, 1, 5);
-INSERT INTO Jornada (Id, numero, grupo) VALUES (14, 2, 5);
-INSERT INTO Jornada (Id, numero, grupo) VALUES (15, 3, 5);
-INSERT INTO Jornada (Id, numero, grupo) VALUES (16, 1, 6);
-INSERT INTO Jornada (Id, numero, grupo) VALUES (17, 2, 6);
-INSERT INTO Jornada (Id, numero, grupo) VALUES (18, 3, 6);
-INSERT INTO Jornada (Id, numero, grupo) VALUES (19, 1, 7);
-INSERT INTO Jornada (Id, numero, grupo) VALUES (20, 2, 7);
-INSERT INTO Jornada (Id, numero, grupo) VALUES (21, 3, 7);
-INSERT INTO Jornada (Id, numero, grupo) VALUES (22, 1, 8);
-INSERT INTO Jornada (Id, numero, grupo) VALUES (23, 2, 8);
-INSERT INTO Jornada (Id, numero, grupo) VALUES (24, 3, 8);
+INSERT INTO Jornada (Id, numero, grupo) VALUES (1, 1, 'A');
+INSERT INTO Jornada (Id, numero, grupo) VALUES (2, 2, 'A');
+INSERT INTO Jornada (Id, numero, grupo) VALUES (3, 3, 'A');
+INSERT INTO Jornada (Id, numero, grupo) VALUES (4, 1, 'B');
+INSERT INTO Jornada (Id, numero, grupo) VALUES (5, 2, 'B');
+INSERT INTO Jornada (Id, numero, grupo) VALUES (6, 3, 'B');
+INSERT INTO Jornada (Id, numero, grupo) VALUES (7, 1, 'C');
+INSERT INTO Jornada (Id, numero, grupo) VALUES (8, 2, 'C');
+INSERT INTO Jornada (Id, numero, grupo) VALUES (9, 3, 'C');
+INSERT INTO Jornada (Id, numero, grupo) VALUES (10, 1, 'D');
+INSERT INTO Jornada (Id, numero, grupo) VALUES (11, 2, 'D');
+INSERT INTO Jornada (Id, numero, grupo) VALUES (12, 3, 'D');
+INSERT INTO Jornada (Id, numero, grupo) VALUES (13, 1, 'E');
+INSERT INTO Jornada (Id, numero, grupo) VALUES (14, 2, 'E');
+INSERT INTO Jornada (Id, numero, grupo) VALUES (15, 3, 'E');
+INSERT INTO Jornada (Id, numero, grupo) VALUES (16, 1, 'F');
+INSERT INTO Jornada (Id, numero, grupo) VALUES (17, 2, 'F');
+INSERT INTO Jornada (Id, numero, grupo) VALUES (18, 3, 'F');
+INSERT INTO Jornada (Id, numero, grupo) VALUES (19, 1, 'G');
+INSERT INTO Jornada (Id, numero, grupo) VALUES (20, 2, 'G');
+INSERT INTO Jornada (Id, numero, grupo) VALUES (21, 3, 'G');
+INSERT INTO Jornada (Id, numero, grupo) VALUES (22, 1, 'H');
+INSERT INTO Jornada (Id, numero, grupo) VALUES (23, 2, 'H');
+INSERT INTO Jornada (Id, numero, grupo) VALUES (24, 3, 'H');
 
 /* Pontuação Jornadas */ 
 
