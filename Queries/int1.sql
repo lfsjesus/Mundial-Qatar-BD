@@ -1,3 +1,3 @@
 SELECT nome, idade, numero 
 FROM Jogador
-WHERE equipa = 3; /* Portugal */
+WHERE equipa = (SELECT Id FROM Equipa WHERE pais = 'Portugal');
