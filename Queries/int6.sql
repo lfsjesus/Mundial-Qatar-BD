@@ -1,14 +1,16 @@
-DROP VIEW IF EXISTS equipas_elim;
-CREATE VIEW IF NOT EXISTS equipas_elim AS
-SELECT Equipa.Id 
-FROM Equipa JOIN Jogam ON Equipa.Id = Jogam.equipa
-    JOIN Jogo ON Jogam.jogo = Jogo.Id
-WHERE Jogo.faseElim IS NOT NULL;
+DROP VIEW IF EXISTS equipas_golos_elim;
+CREATE VIEW IF NOT EXISTS equipas_golos_elim AS
+SELECT * from equipa, jogam, jogo, golo, evento
+where equipa.Id = jogam.equipa and jogam.jogo = jogo.Id and golo.equipa = equipa.Id and evento.Id = golo.evento and evento.jogo = jogo.Id and jogo.faseElim is NOT NULL;
 
-/* É suposto mostrar o nome da equipa (país) e a média é por jogo. */
 
-SELECT equipa, AVG(n_golos)
-FROM (SELECT equipa, COUNT(*) n_golos
-      FROM Golo JOIN equipas_elim ON equipas_elim.Id = Golo.equipa
-      GROUP BY equipa) t
-GROUP BY equipa;
+/* COUNT GOALS PER GAME */
+SELECT pais, jogo, evento, count(*) as NUMBER_OF_GOALS FROM equipas_golos_elim
+group by pais, jogo;
+
+
+/* AVG GOALS PER GAME */
+SELECT pais, avg(NUMBER_OF_GOALS) as AVG_GOALS_PER_GAME FROM 
+(SELECT pais, jogo, evento, count(*) as NUMBER_OF_GOALS FROM equipas_golos_elim
+group by pais, jogo)
+group by pais;
