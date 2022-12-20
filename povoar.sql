@@ -1253,9 +1253,24 @@ INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa)
 INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (64, 'Dusko Tosic', '1985-01-19', 'Servia', 'Besiktas', 3, 5);
 INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (65, 'Luka Milivojevic', '1991-04-07', 'Servia', 'Crystal Palace', 4, 5);
 INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (66, 'Uros Spajic', '1993-02-13', 'Servia', 'Anderlecht', 5, 5);
-
-
-
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (67, 'Branislav Ivanovic', '1984-12-22', 'Servia', 'Zenit Saint Petersburg', 6, 5);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (68, 'Andrija Zivkovic', '1996-07-11', 'Servia', 'Benfica', 7, 5);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (69, 'Aleksandar Prijovic', '1990-04-21', 'Servia', 'PAOK', 8, 5);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (70, 'Aleksandar Mitrovic', '1994-09-16', 'Servia', 'Fulham', 9, 5);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (71, 'Dusan Tadic', '1988-11-20', 'Servia', 'Southampton', 10, 5);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, mumero, equipa) VALUES (72, 'Aleksandar Kolarov', '1985-11-10', 'Servia', 'Roma', 11, 5);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (73, 'Predrag Rajkovic', '1995-10-31', 'Servia', 'Maccabi Tel Aviv', 12, 5);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (74, 'Milos Veljkovic', '1995-09-26', 'Servia', 'Werder Bremen', 13, 5);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (75, 'Milan Rodic', '1991-04-02', 'Servia', 'Red Star Belgrade', 14, 5);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (76, 'Nikola Milenkovic', '1997-10-12', 'Servia', 'Fiorentina', 15, 5);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (77, 'Marko Grujic', '1996-04-13', 'Servia', 'Cardiff City', 16, 5);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (78, 'Filip Kostic', '1992-11-01', 'Servia', 'Hamburhuer SV', 17, 5);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (79, 'Nemanja Radonjic', '1996-02-15', 'Red Star Belgrade', 18, 5);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (80, 'Luka Jovic', '1997-12-23', 'Eintracht Frankfurt', 19, 5);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (81, 'Sergej Milinkovic-Savic', '1995-02-27', 'Lazio', 20, 5);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (82, 'Nemanja Matic', '1988-08-01', 'Manchester United', 21, 5);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (83, 'Adem Ljajic', '1991-09-29', 'Torino', 22, 5);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (84, 'Marko Dmitrovic', '1992-01-24', 'Eibar', 23, 5);
 
 /* Eventos */
 
