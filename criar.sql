@@ -11,7 +11,7 @@ CREATE TABLE Evento (
     jogo INT NOT NULL,
     minuto INT CHECK (minuto >= 0),
     PRIMARY KEY (Id),
-    FOREIGN KEY (jogo) REFERENCES Jogo(Id) ON UPDATE CASCADE
+    FOREIGN KEY (jogo) REFERENCES Jogo(Id) ON UPDATE CASCADE ON DELETE CASCADE
 );
 DROP TABLE IF EXISTS Golo;
 CREATE TABLE Golo (
@@ -20,9 +20,9 @@ CREATE TABLE Golo (
     jogador INT NOT NULL,
     tipo TEXT NOT NULL CHECK (tipo IN ('normal', 'penalti', 'auto-golo', 'assistencia')), 
     PRIMARY KEY (evento),
-    FOREIGN KEY (evento) REFERENCES Evento(Id) ON UPDATE CASCADE,
-    FOREIGN KEY (equipa) REFERENCES Equipa(Id) ON UPDATE CASCADE,
-    FOREIGN KEY (jogador) REFERENCES Jogador(Id) ON UPDATE CASCADE
+    FOREIGN KEY (evento) REFERENCES Evento(Id) ON UPDATE CASCADE ON DELETE CASCADE,
+    FOREIGN KEY (equipa) REFERENCES Equipa(Id) ON UPDATE CASCADE ON DELETE CASCADE,
+    FOREIGN KEY (jogador) REFERENCES Jogador(Id) ON UPDATE CASCADE ON DELETE CASCADE
     
 );
 DROP TABLE IF EXISTS Substituicao;
@@ -31,9 +31,9 @@ CREATE TABLE Substituicao (
     jogadorEntra INT NOT NULL,
     jogadorSai INT NOT NULL,
     PRIMARY KEY (evento),
-    FOREIGN KEY (evento) REFERENCES Evento(Id) ON UPDATE CASCADE,
-    FOREIGN KEY (jogadorEntra) REFERENCES Jogador(Id) ON UPDATE CASCADE,
-    FOREIGN KEY (jogadorSai) REFERENCES Jogador(Id) ON UPDATE CASCADE
+    FOREIGN KEY (evento) REFERENCES Evento(Id) ON UPDATE CASCADE ON DELETE CASCADE,
+    FOREIGN KEY (jogadorEntra) REFERENCES Jogador(Id) ON UPDATE CASCADE ON DELETE CASCADE,
+    FOREIGN KEY (jogadorSai) REFERENCES Jogador(Id) ON UPDATE CASCADE ON DELETE CASCADE
 );
 
 DROP TABLE IF EXISTS Cartao;
@@ -42,25 +42,24 @@ CREATE TABLE Cartao (
     jogador INT NOT NULL,
     cor VARCHAR(8) NOT NULL,
     PRIMARY KEY (evento),
-    FOREIGN KEY (evento) REFERENCES Evento(Id) ON UPDATE CASCADE,
-    FOREIGN KEY (jogador) REFERENCES Jogador(Id) ON UPDATE CASCADE,
+    FOREIGN KEY (evento) REFERENCES Evento(Id) ON UPDATE CASCADE ON DELETE CASCADE,
+    FOREIGN KEY (jogador) REFERENCES Jogador(Id) ON UPDATE CASCADE ON DELETE CASCADE,
     CHECK (cor ='amarelo' OR cor ='vermelho')
 );
 DROP TABLE IF EXISTS Grupo;
 CREATE TABLE Grupo(
-    Id INT NOT NULL,
     letra CHAR(1) UNIQUE NOT NULL CHECK (letra IN ('A', 'B', 'C', 'D', 'E', 'F', 'G', 'H')),
     faseDeGrupo INT NOT NULL,
-    PRIMARY KEY (Id),
-    FOREIGN KEY (faseDeGrupo) REFERENCES FaseDeGrupos(Id) ON UPDATE CASCADE
+    PRIMARY KEY (letra),
+    FOREIGN KEY (faseDeGrupo) REFERENCES FaseDeGrupos(Id) ON UPDATE CASCADE ON DELETE CASCADE
 );
 DROP TABLE IF EXISTS Jornada;
 CREATE TABLE Jornada (
     Id INT NOT NULL,
     numero INT CHECK (numero > 0 AND numero <= 3),
-    grupo INT NOT NULL,
+    grupo CHAR(1) NOT NULL,
     PRIMARY KEY (Id),
-    FOREIGN KEY (grupo) REFERENCES Grupo(Id) ON UPDATE CASCADE
+    FOREIGN KEY (grupo) REFERENCES Grupo(letra) ON UPDATE CASCADE ON DELETE CASCADE
 );
 DROP TABLE IF EXISTS Equipa;
 CREATE TABLE Equipa (
@@ -94,9 +93,9 @@ CREATE TABLE Jogo (
     faseElim INT,
     estadio INT NOT NULL,
     PRIMARY KEY (Id),
-    FOREIGN KEY (jornada) REFERENCES Jornada(Id) ON UPDATE CASCADE,
-    FOREIGN KEY (faseElim) REFERENCES FaseEliminatoria(Id) ON UPDATE CASCADE,
-    FOREIGN KEY (estadio) REFERENCES Estadio(Id) ON UPDATE CASCADE,
+    FOREIGN KEY (jornada) REFERENCES Jornada(Id) ON UPDATE CASCADE ON DELETE CASCADE,
+    FOREIGN KEY (faseElim) REFERENCES FaseEliminatoria(Id) ON UPDATE CASCADE ON DELETE CASCADE,
+    FOREIGN KEY (estadio) REFERENCES Estadio(Id) ON UPDATE CASCADE ON DELETE CASCADE,
     CHECK ((jornada IS NOT NULL AND faseElim IS NULL) OR (jornada IS NULL AND faseElim IS NOT NULL))
 );
 DROP TABLE IF EXISTS Jogam;
@@ -104,8 +103,8 @@ CREATE TABLE Jogam(
     jogo INT NOT NULL,
     equipa INT NOT NULL,
     PRIMARY KEY (jogo, equipa),
-    FOREIGN KEY (jogo) REFERENCES Jogo(Id) ON UPDATE CASCADE,
-    FOREIGN KEY (equipa) REFERENCES Equipa(Id) ON UPDATE CASCADE
+    FOREIGN KEY (jogo) REFERENCES Jogo(Id) ON UPDATE CASCADE ON DELETE CASCADE,
+    FOREIGN KEY (equipa) REFERENCES Equipa(Id) ON UPDATE CASCADE ON DELETE CASCADE
 );
 DROP TABLE IF EXISTS ClassificacaoEliminatoria;
 CREATE TABLE ClassificacaoEliminatoria (
@@ -113,8 +112,8 @@ CREATE TABLE ClassificacaoEliminatoria (
     equipa INT NOT NULL,
     posicao INT CHECK (posicao <= 16 AND posicao >= 1),
     PRIMARY KEY (faseElim,equipa),
-    FOREIGN KEY (faseElim) REFERENCES FaseEliminatoria(Id) ON UPDATE CASCADE,
-    FOREIGN KEY (equipa) REFERENCES Equipa(Id) ON UPDATE CASCADE
+    FOREIGN KEY (faseElim) REFERENCES FaseEliminatoria(Id) ON UPDATE CASCADE ON DELETE CASCADE,
+    FOREIGN KEY (equipa) REFERENCES Equipa(Id) ON UPDATE CASCADE ON DELETE CASCADE
 );
 DROP TABLE IF EXISTS PontuacaoJornada;
 CREATE TABLE PontuacaoJornada (
@@ -122,8 +121,8 @@ CREATE TABLE PontuacaoJornada (
     equipa INT NOT NULL,
     pontos INT CHECK (pontos >= 0),
     PRIMARY KEY (jornada, equipa),
-    FOREIGN KEY (jornada) REFERENCES Jornada(Id) ON UPDATE CASCADE,
-    FOREIGN KEY (equipa) REFERENCES Equipa(Id) ON UPDATE CASCADE
+    FOREIGN KEY (jornada) REFERENCES Jornada(Id) ON UPDATE CASCADE ON DELETE CASCADE,
+    FOREIGN KEY (equipa) REFERENCES Equipa(Id) ON UPDATE CASCADE ON DELETE CASCADE
 );
 DROP TABLE IF EXISTS Jogador;
 CREATE TABLE Jogador (
@@ -136,7 +135,7 @@ CREATE TABLE Jogador (
     numero INT CHECK (numero >= 0),
     equipa INT NOT NULL,
     PRIMARY KEY (Id),
-    FOREIGN KEY (equipa) REFERENCES Equipa(Id) ON UPDATE CASCADE
+    FOREIGN KEY (equipa) REFERENCES Equipa(Id) ON UPDATE CASCADE ON DELETE CASCADE
 );
 DROP TABLE IF EXISTS Treinador;
 CREATE TABLE Treinador (
@@ -146,7 +145,7 @@ CREATE TABLE Treinador (
     pais TEXT NOT NULL,
     equipa INT NOT NULL,
     PRIMARY KEY (Id),
-    FOREIGN KEY (equipa) REFERENCES Equipa(Id) ON UPDATE CASCADE
+    FOREIGN KEY (equipa) REFERENCES Equipa(Id) ON UPDATE CASCADE ON DELETE CASCADE
 );
 
 DROP TABLE IF EXISTS Arbitro;
@@ -163,6 +162,6 @@ CREATE TABLE TipoArbitro (
     arbitro INT NOT NULL,
     tipo TEXT CHECK (tipo ='principal' OR tipo ='adjunto' OR tipo ='video'),
     PRIMARY KEY (jogo, arbitro),
-    FOREIGN KEY (jogo) REFERENCES Jogo(Id) ON UPDATE CASCADE,
-    FOREIGN KEY (arbitro) REFERENCES Arbitro(Id) ON UPDATE CASCADE
+    FOREIGN KEY (jogo) REFERENCES Jogo(Id) ON UPDATE CASCADE ON DELETE CASCADE,
+    FOREIGN KEY (arbitro) REFERENCES Arbitro(Id) ON UPDATE CASCADE ON DELETE CASCADE
 );
