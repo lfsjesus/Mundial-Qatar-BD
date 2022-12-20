@@ -4,7 +4,7 @@
             "previewLimit": 50,
             "driver": "SQLite",
             "name": "tabela",
-            "database": "${workspaceFolder:Mundial-Qatar-BD}/tabela.db"
+            "database": "${workspaceFolder:Mundial-Qatar-BD}/tabela1.db"
         }
     ]
 }
