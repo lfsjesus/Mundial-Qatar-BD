@@ -1369,6 +1369,30 @@ INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa)
 INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (175, 'Nacer Chadli', '1989-08-02', 'Belgica', 'West Bromwich Albion', 22, 9);
 INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (176, 'Leander Dendoncker', '1995-04-15', 'Belgica', 'Anderlecht', 23, 9);
 
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (177, 'Hannes Por Halldorsson', '1984-04-27', 'Islandia', 'Randers', 1, 10);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (178, 'Birkir Mar Saevarsson', '1984-11-11', 'Islandia', 'Valur', 2, 10);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (179, 'Samuel Fridjonsson', '1996-02-22', 'Islandia', 'Valerenga', 3, 10);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (180, 'Albert Gudmundsson', '1997-06-15', 'Islandia', 'PSV Eindhoven', 4, 10);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (181, 'Sverrir Ingi Ingason', '1993-08-05', 'Islandia', 'Rostov', 5, 10);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (182, 'Ragnar Sigurdsson', '1986-06-19', 'Islandia', 'Rostov', 6, 10);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (183, 'Johann Berg Gudmundsson', '1990-10-27', 'Islandia', 'Burnley', 7, 10);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (184, 'Birkir Bjarnason', '1988-05-27', 'Islandia', 'Aston Villa', 8, 10);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (185, 'Bjorn Bergmann Sigurdarson', '1991-02-26', 'Islandia', 'Rostov', 9, 10);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (186, 'Gylfi Sigurdsson', '1989-09-08', 'Islandia', 'Everton', 10, 10);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (187, 'Alfred Finnbogason', '1989-02-01', 'Islandia', 'FC Augsburg', 11, 10);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (188, 'Frederik Schram', '1995-01-19', 'Islandia', 'Roskilde', 12, 10);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (189, 'Runar Alex Runarsson', '1995-02-18', 'Islandia', 'Nordsjaelland', 13, 10);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (190, 'Kari Arnason', '1982-10-12', 'Islandia', 'Aberdeen', 14, 10);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (191, 'Holmar Orn Eyjolfsson', '1990-08-06', 'Islandia', 'Levski Sofia', 15, 10);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (192, 'Olafur Ingi Skulason', '1983-04-01', 'Islandia', 'Kardemir Karabukspor', 16, 10);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (193, 'Aron Gunnarsson', '1989-04-22', 'Islandia', 'Cardiff City', 17, 10);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (194, 'Hordur Bjorgvin Magnusson', '1993-02-11', 'Islandia', 'Bristol City', 18, 10);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (195, 'Rurik Gislason', '1988-02-25', 'Islandia', 'SV Sandhausen', 19, 10);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (196, 'Emil Hallfredsson', '1984-06-29', 'Islandia', 'Udinese', 20, 10);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (197, 'Arnor Ingvi Traustason', '1993-04-30', 'Islandia', 'Malmo FF', 21, 10);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (198, 'Jon Dadi Bodvarsson', '1992-05-25', 'Islandia', 'Reading', 22, 10);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (199, 'Ari Freyr Skulason', '1987-05-14', 'Islandia', 'Lokeren', 23, 10);
+
 
 /* Eventos */
 
