@@ -1188,6 +1188,7 @@ INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa)
 INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (30, 'Raphael Varane', '1993-04-25', 'Franca', 'Real Madrid', 4, 2);
 INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (31, 'Samuel Umititi', '1993-11-14', 'Camaroes', 'Barcelona', 5, 2);
 INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (32, 'NGolo Kante', '1991-03-29', 'Camaroes', 'Chelsea', 13, 2);
+
 INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (33, 'Cristiano Ronaldo', '1985-02-05', 'Portugal', 'Juventus', 7, 3);
 INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (34, 'Bruno Fernandes', '1994-09-08', 'Portugal', 'Sporting', 16, 3);
 INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (35, 'Joao Mario Eduardo', '1993-01-19', 'Portugal', 'Internazionale', 10, 3);
@@ -1265,12 +1266,18 @@ INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa)
 INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (76, 'Nikola Milenkovic', '1997-10-12', 'Servia', 'Fiorentina', 15, 5);
 INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (77, 'Marko Grujic', '1996-04-13', 'Servia', 'Cardiff City', 16, 5);
 INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (78, 'Filip Kostic', '1992-11-01', 'Servia', 'Hamburhuer SV', 17, 5);
-INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (79, 'Nemanja Radonjic', '1996-02-15', 'Red Star Belgrade', 18, 5);
-INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (80, 'Luka Jovic', '1997-12-23', 'Eintracht Frankfurt', 19, 5);
-INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (81, 'Sergej Milinkovic-Savic', '1995-02-27', 'Lazio', 20, 5);
-INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (82, 'Nemanja Matic', '1988-08-01', 'Manchester United', 21, 5);
-INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (83, 'Adem Ljajic', '1991-09-29', 'Torino', 22, 5);
-INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (84, 'Marko Dmitrovic', '1992-01-24', 'Eibar', 23, 5);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (79, 'Nemanja Radonjic', '1996-02-15', 'Servia', 'Red Star Belgrade', 18, 5);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (80, 'Luka Jovic', '1997-12-23', 'Servia', 'Eintracht Frankfurt', 19, 5);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (81, 'Sergej Milinkovic-Savic', '1995-02-27', 'Servia', 'Lazio', 20, 5);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (82, 'Nemanja Matic', '1988-08-01', 'Servia', 'Manchester United', 21, 5);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (83, 'Adem Ljajic', '1991-09-29', 'Servia', 'Torino', 22, 5);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (84, 'Marko Dmitrovic', '1992-01-24', 'Servia', 'Eibar', 23, 5);
+
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (85, 'Wojciech Szczesny', '1990-04-18', 'Polonia', 'Juventus', 1, 6);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (86, 'Michal Pazdan', '1987-09-21', 'Polonia', 'Legia Warsaw', 2, 6);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (87, 'Artur Jedrzejczyk', '1987-11-04', 'Polonia', 'Legia Warsaw', 3, 6);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (88, 'Thiago Cionek', '1986-04-21', 'Polonia', 'SPAL', 4, 6);
+
 
 /* Eventos */
 
