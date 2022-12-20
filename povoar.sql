@@ -1248,6 +1248,14 @@ VALUES (60, 'Toni Kroos', '1990-01-04', 'Alemanha', 'Real Madrid Club de Futbol'
 INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa)
 VALUES (61, 'Leon Goretzka', '1995-02-06', 'Alemanha', 'FC Bayern Munchen', 14, 4);
 
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (62, 'Vladimir Stojkovic', '1983-07-28', 'Servia', 'Partizan', 1, 5);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (63, 'Antonio Rukavina', '1984-01-26', 'Servia', 'Villarreal', 2, 5);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (64, 'Dusko Tosic', '1985-01-19', 'Servia', 'Besiktas', 3, 5);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (65, 'Luka Milivojevic', '1991-04-07', 'Servia', 'Crystal Palace', 4, 5);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (66, 'Uros Spajic', '1993-02-13', 'Servia', 'Anderlecht', 5, 5);
+
+
+
 
 /* Eventos */
 
