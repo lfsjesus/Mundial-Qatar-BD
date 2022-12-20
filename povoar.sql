@@ -1297,7 +1297,29 @@ INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa)
 INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (106, 'Lukasz Fabianski', '1985-04-18', 'Polonia', 'Swansea City', 22, 6);
 INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (107, 'Dawid Kownacki', '1997-03-14', 'Polonia', 'Sampdoria', 23, 6);
 
-
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (108, 'Jordan Pickford', '1994-03-07', 'Inglaterra', 'Everton', 1, 7);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (109, 'Kyle Walker', '1990-05-28', 'Inglaterra', 'Manchester City', 2, 7);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (110, 'Danny Rose', '1990-07-02', 'Inglaterra', 'Tottenham Hotspur', 3, 7);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (111, 'Eric Dier', '1994-01-15', 'Inglaterra', 'Tottenham Hotspur', 4, 7);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (112, 'John Stones', '1994-05-28', 'Inglaterra', 'Manchester City', 5, 7);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (113, 'Harry Maguire', '1993-03-05', 'Inglaterra', 'Leicester City', 6, 7);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (114, 'Jesse Lingard', '1992-12-15', 'Inglaterra', 'Manchester United', 7, 7);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (115, 'Jordan Henderson', '1990-06-17', 'Inglaterra', 'Liverpool', 8, 7);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (116, 'Harry Kane', '1993-07-28', 'Inglaterra', 'Tottenham Hotspur', 9, 7);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (117, 'Raheem Sterling', '1994-12-08', 'Inglaterra', 'Manchester City', 10, 7);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (118, 'Jamie Vardy', '1987-01-11', 'Inglaterra', 'Leicester City', 11, 7);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (119, 'Kieran Trippier', '1990-09-19', 'Inglaterra', 'Tottenham Hotspur', 12, 7);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (120, 'Jack Butland', '1993-03-10', 'Inglaterra', 'Stoke City', 13, 7);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (121, 'Danny Welbeck', '1990-11-26', 'Inglaterra', 'Arsenal', 14, 7);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (122, 'Gary Cahill', '1985-12-19', 'Inglaterra', 'Chelsea', 15, 7);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (123, 'Phil Jones', '1992-02-21', 'Inglaterra', 'Manchester United', 16, 7);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (124, 'Fabian Delph', '1989-11-21', 'Inglaterra', 'Manchester City', 17, 7);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (125, 'Ashley Young', '1985-07-09', 'Inglaterra', 'Manchester United', 18, 7);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (126, 'Marcus Rashford', '1997-10-31', 'Inglaterra', 'Manchester United', 19, 7);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (127, 'Dele Alli', '1996-04-11', 'Inglaterra', 'Tottenham Hotspur', 20, 7);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (128, 'Ruben Lotfus-Cheek', '1996-01-23', 'Inglaterra', 'Crystal Palace', 21, 7);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (129, 'Trent Alexander-Arnold', '1998-10-07', 'Inglaterra', 'Liverpool', 22,7);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (130, 'Nick Pope', '1992-04-19', 'Inglaterra', 'Burnley', 23, 7);
 
 /* Eventos */
 
