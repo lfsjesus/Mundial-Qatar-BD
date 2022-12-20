@@ -1220,7 +1220,7 @@ INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa)
 VALUES (51, 'Sebastian Rudy', '1990-02-28', 'Alemanha', 'TSG 1899 Hoffenheim', 19, 4);
 
 INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa)
-VALUES (52, 'Thomas Muller', '1989-09-13', 'Alemanha', 'FC Bayern Munchen', 13, 4);
+VALUES (52, 'Thomas Muller', '1989-09-13', 'Alemanha', 'Bayern Munich', 13, 4);
 
 INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa)
 VALUES (53, 'Mats Hummels', '1988-12-16', 'Alemanha', 'Borussia Dortmund', 5, 4);
@@ -1229,10 +1229,10 @@ INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa)
 VALUES (54, 'Julian Brandt', '1996-05-02', 'Alemanha', 'Borussia Dortmund', 20, 4);
 
 INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa)
-VALUES (55, 'Timo Werner', '1996-03-06', 'Alemanha', 'RasenBallsport Leipzig', 9, 4);
+VALUES (55, 'Timo Werner', '1996-03-06', 'Alemanha', 'RB Leipzig', 9, 4);
 
 INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa)
-VALUES (56, 'Ilkay Gundogan', '1990-10-24', 'Alemanha', 'Manchester City Football Club', 21, 4);
+VALUES (56, 'Ilkay Gundogan', '1990-10-24', 'Alemanha', 'Manchester City', 21, 4);
 
 INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa)
 VALUES (57, 'Julian Draxler', '1993-09-20', 'Alemanha', 'Sport Lisboa e Benfica', 7, 4);
@@ -1247,7 +1247,7 @@ INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa)
 VALUES (60, 'Toni Kroos', '1990-01-04', 'Alemanha', 'Real Madrid Club de Futbol', 8, 4);
 
 INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa)
-VALUES (61, 'Leon Goretzka', '1995-02-06', 'Alemanha', 'FC Bayern Munchen', 14, 4);
+VALUES (61, 'Leon Goretzka', '1995-02-06', 'Alemanha', 'Bayern Munich', 14, 4);
 
 INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (62, 'Vladimir Stojkovic', '1983-07-28', 'Servia', 'Partizan', 1, 5);
 INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (63, 'Antonio Rukavina', '1984-01-26', 'Servia', 'Villarreal', 2, 5);
@@ -1440,6 +1440,31 @@ INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa)
 INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (243, 'Domagoj Vida', '1989-04-29', 'Croacia', 'Besiktas', 21, 12);
 INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (244, 'Josip Pivaric', '1989-01-30', 'Croacia', 'Dynamo Kyiv', 22, 12);
 INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (245, 'Danijel Subasic', '1984-10-27', 'Croacia', 'Monaco', 23, 12);
+
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (246, 'Robin Olsen', '1990-01-08', 'Suecia', 'Copenhagen', 1, 13);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (247, 'Mikael Lustig', '1986-12-13', 'Suecia', 'Celtic', 2, 13);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (248, 'Victor Lindelof', '1994-07-17', 'Suecia', 'Manchester United', 3, 13);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (249, 'Andreas Granqvist', '1985-04-16', 'Suecia', 'Krasnodar', 4, 13);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (250, 'Martin Olsson', '1988-05-17', 'Suecia', 'Swansea City', 5, 13);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (251, 'Ludwig Augustinsson', '1994-04-21', 'Suecia', 'Werder Bremen', 6, 13);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (252, 'Sebastian Larsson', '1985-06-06', 'Suecia', 'Hull City', 7, 13);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (253, 'Albin Ekdal', '1989-07-28', 'Suecia', 'Hamburger SV', 8, 13);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (254, 'Marcus Berg', '1986-08-17', 'Suecia', 'Al Ain', 9, 13);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (255, 'Emil Forsberg', '1991-10-23', 'Suecia', 'RB Leipzig', 10, 13);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (256, 'John Guidetti', '1992-04-15', 'Suecia', 'Alaves', 11, 13);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (257, 'Karl-Johan Johnsson', '1990-01-28', 'Suecia', 'Guingamp', 12, 13);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (258, 'Gustav Svensson', '1987-02-07', 'Suecia', 'Seattle Sounders FC', 13, 13);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (259, 'Filip Helander', '1993-04-22', 'Suecia', 'Bologna', 14, 13);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (260, 'Oscar Hiljemark', '1992-06-28', 'Suecia', 'Genoa', 15, 13);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (261, 'Emil Krafth', '1994-08-02', 'Suecia', 'Bologna', 16, 13);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (262, 'Viktor Claesson' ,'1992-01-02', 'Suecia', 'Krasnodar', 17, 13);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (263, 'Pontus Jansson', '1991-02-13', 'Suecia', 'Leeds United', 18, 13);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (264, 'Marcus Rohden', '1991-05-11', 'Suecia', 'Crotone', 19, 13);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (265, 'Ola Toivonen', '1986-06-03', 'Suecia', 'Toulouse', 20, 13);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (266, 'Jimmy Durmaz', '1989-03-22', 'Suecia', 'Toulouse', 21, 13);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (267, 'Isaac Kiese Thelin', '1992-06-24', 'Suecia', 'Waasland-Beveren', 22, 13);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (268, 'Kirstoffer Nordfeldt', '1989-06-23', 'Suecia', 'Swansea City', 23, 13);
+
 
 /* Eventos */
 
