@@ -3,8 +3,8 @@
         {
             "previewLimit": 50,
             "driver": "SQLite",
-            "name": "tabela1",
-            "database": "${workspaceFolder:Mundial-Qatar-BD}/tabela1.db"
+            "name": "tabela",
+            "database": "${workspaceFolder:Mundial-Qatar-BD}/tabela.db"
         }
     ]
 }

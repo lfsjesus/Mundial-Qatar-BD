@@ -1259,7 +1259,7 @@ INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa)
 INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (69, 'Aleksandar Prijovic', '1990-04-21', 'Servia', 'PAOK', 8, 5);
 INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (70, 'Aleksandar Mitrovic', '1994-09-16', 'Servia', 'Fulham', 9, 5);
 INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (71, 'Dusan Tadic', '1988-11-20', 'Servia', 'Southampton', 10, 5);
-INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, mumero, equipa) VALUES (72, 'Aleksandar Kolarov', '1985-11-10', 'Servia', 'Roma', 11, 5);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (72, 'Aleksandar Kolarov', '1985-11-10', 'Servia', 'Roma', 11, 5);
 INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (73, 'Predrag Rajkovic', '1995-10-31', 'Servia', 'Maccabi Tel Aviv', 12, 5);
 INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (74, 'Milos Veljkovic', '1995-09-26', 'Servia', 'Werder Bremen', 13, 5);
 INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (75, 'Milan Rodic', '1991-04-02', 'Servia', 'Red Star Belgrade', 14, 5);
@@ -1277,6 +1277,26 @@ INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa)
 INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (86, 'Michal Pazdan', '1987-09-21', 'Polonia', 'Legia Warsaw', 2, 6);
 INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (87, 'Artur Jedrzejczyk', '1987-11-04', 'Polonia', 'Legia Warsaw', 3, 6);
 INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (88, 'Thiago Cionek', '1986-04-21', 'Polonia', 'SPAL', 4, 6);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (89, 'Jan Bednarek', '1996-04-12', 'Polonia', 'Southampton', 5, 6);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (90, 'Jacek Goralski', '1992-09-21', 'Polonia', 'Ludogorets Razgrad', 6, 6);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (91, 'Arkadiusz Milik', '1994-02-28', 'Polonia', 'Napoli', 7, 6);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (92, 'Karol Linetty', '1995-02-02', 'Polonia', 'Sampdoria', 8, 6);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (93, 'Robert Lewandowski', '1988-08-21', 'Polonia', 'Bayern Munich', 9, 6);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (94, 'Grzegory Krychowiak', '1990-01-29', 'Polonia', 'West Bromwich Albion', 10, 6);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (95, 'Kamil Grosicki', '1988-06-08', 'Polonia', 'Hull City', 11, 6);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (96, 'Barotsz Bialkowski', '1987-07-06', 'Polonia', 'Ipswich Town', 12, 6);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (97, 'Maciej Rybus', '1989-08-19', 'Polonia', 'Lokomotiv Moscow', 13, 6);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (98, 'Lukasz Teodorczyk', '1991-06-03', 'Polonia', 'Anderlecht', 14, 6);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (99, 'Kamil Glik', '1988-02-03', 'Polonia', 'Monaco', 15, 6);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (100, 'Jakub Blaszczykowski', '1985-12-14', 'Polonia', 'VfL Wolfsburg', 16, 6);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (101, 'Slawomir Peszko', '1985-02-19', 'Polonia', 'Lechia Gdansk', 17, 6);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (102, 'Bartosz Bereszynski', '1992-07-12', 'Polonia', 'Sampdoria', 18, 6);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (103, 'Piotr Zielinski', '1994-05-20', 'Polonia', 'Napoli', 19, 6);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (104, 'Lukasz Piszczek', '1985-06-03', 'Polonia', 'Borussia Dortmund', 20, 6);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (105, 'Rafael Kurzawa', '1993-01-29', 'Polonia', 'Gornik Zabrze', 21, 6);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (106, 'Lukasz Fabianski', '1985-04-18', 'Polonia', 'Swansea City', 22, 6);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (107, 'Dawid Kownacki', '1997-03-14', 'Polonia', 'Sampdoria', 23, 6);
+
 
 
 /* Eventos */
