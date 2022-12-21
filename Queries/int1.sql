@@ -1,3 +1,4 @@
 SELECT nome, idade, numero 
 FROM Jogador
-WHERE equipa = (SELECT Id FROM Equipa WHERE pais = 'Portugal');
+WHERE equipa = (SELECT Id FROM Equipa WHERE pais = 'Portugal')
+ORDER BY nome;
