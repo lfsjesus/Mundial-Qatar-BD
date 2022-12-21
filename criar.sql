@@ -9,7 +9,7 @@ DROP TABLE IF EXISTS Evento;
 CREATE TABLE Evento (
     Id INT CHECK (Id >= 0),
     jogo INT NOT NULL,
-    minuto INT CHECK (minuto >= 0),
+    minuto INT NOT NULL CHECK (minuto >= 0),
     PRIMARY KEY (Id),
     FOREIGN KEY (jogo) REFERENCES Jogo(Id) ON UPDATE CASCADE ON DELETE CASCADE
 );
@@ -142,7 +142,7 @@ CREATE TABLE Treinador (
     Id INT CHECK (Id >= 0),
     nome TEXT NOT NULL,
     dataNascimento DATE NOT NULL,
-    idade GENERATED ALWAYS as (strftime('%Y', '2022-12-31') - strftime('%Y', dataNascimento)),
+    idade NOT NULL GENERATED ALWAYS as (strftime('%Y', '2022-12-31') - strftime('%Y', dataNascimento)),
     pais TEXT NOT NULL,
     equipa INT NOT NULL,
     PRIMARY KEY (Id),
