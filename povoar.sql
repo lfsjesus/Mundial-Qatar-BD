@@ -1561,6 +1561,77 @@ INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa)
 INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (359, 'Maya Yoshida', '1988-08-24', 'Japao', 'Southampton', 22, 17);
 INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (360, 'Kosuke Nakamura', '1995-02-27', 'Japao', 'Kashiwa Reysol', 23, 17);
 
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (361, 'Abdullah Al-Mayouf', '1987-01-23', 'Arabia Saudita', 'Al Hilal', 1, 18);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (362, 'Mansoor Al-Harbi', '1987-10-19', 'Arabia Saudita', 'Al Ahli', 2, 18);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (363, 'Osama Hawsawi', '1984-03-31', 'Arabia Saudia', 'Al Hilal', 3, 18);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (364, 'Ali Al-Bulaihi', '1989-11-21', 'Arabia Saudita', 'Al Hilal', 4, 18);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (365, 'Omar Hawsawi', '1985-09-27', 'Arabia Saudita', 'Al Nassr', 5, 18);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (366, 'Mohammed Al-Breik', '1992-09-15', 'Arabia Saudita', 'Al Hilal', 6, 18);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (367, 'Salman Al-Faraj', '1989-08-01', 'Arabia Saudita', 'Al Hilal', 7, 18);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (368, 'Yahya Al-Shehri', '1990-06-26', 'Arabia Saudita', 'Leganes', 8, 18);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (369, 'Hattan Bahebri', '1992-07-16', 'Arabia Saudita', 'Al Shabab', 9, 18);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (370, 'Mohammad Al-Sahlwai', '1987-01-10', 'Arabia Saudita', 'Al Nassr', 10, 18);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (371, 'Abdulmalek Al-Khaibri', '1986-03-13', 'Arabia Saudita', 'Al Hilal', 11, 18);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (372, 'Mohamed Kanno', '1994-09-22', 'Arabia Saudita', 'Al Hilal', 12, 18);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (373, 'Yasser Al-Shahrani', '1992-05-25', 'Arabia Saudita', 'Al Hilal', 13, 18);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (374, 'Abdullah Otayf', '1992-08-03', 'Arabia Saudita', 'Al Hilal', 14, 18);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (375, 'Abdullah Al-Khaibari', '1996-08-16', 'Arabia Saudita', 'Al Shabab', 15, 18);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (376, 'Housain Al-Mogahwi', '1988-03-24', 'Arabia Saudita', 'Al Ahli', 16, 18);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (377, 'Taisir Al-Jassim' ,'1984-07-25', 'Arabia Saudita', 'Al Ahli', 17, 18);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (378, 'Salem Al-Dawsari', '1991-08-19', 'Arabia Saudita', 'Villarreal', 18, 18);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (379, 'Fahad Al-Muwallad', '1994-09-14', 'Arabia Saudita', 'Levante', 19, 18);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (380, 'Muhannad Assiri', '1986-10-14', 'Arabia Saudita', 'Al Ahli', 20, 18);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (381, 'Yasser Al-Mosailem', '1984-02-27', 'Arabia Saudita', 'Al Ahli', 21, 18);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (382, 'Mohammed Al-Owais', '1991-10-10', 'Arabia Saudita', 'Al Ahli', 22, 18);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (383, 'Motaz Hawsawi', '1992-02-17', 'Arabia Saudita', 'Al Ahli', 23, 18);
+
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (384, 'Mathew Ryan', '1992-04-08', 'Australia', 'Brighton & Hove Albion', 1, 19);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (385, 'Milos Degenek', '1994-04-28', 'Croacia', 'Yokohama F. Marinos', 2, 19);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (386, 'James Meredith', '1988-04-05', 'Australia', 'Millwall', 3, 19);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (387, 'Tim Cahill', '1979-12-06', 'Australia', 'Millwall', 4, 19);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (388, 'Mark Milligan', '1985-08-04', 'Australia', 'Al Ahli', 5, 19);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (389, 'Matthew Jurman', '1989-12-08', 'Australia', 'Suwon Samsung Bluewings', 6, 19);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (390, 'Mathew Leckie', '1991-02-04', 'Australia', 'Hertha BSC', 7, 19);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (391, 'Massimo Luongo', '1992-09-25', 'Australia', 'Queens Park Rangers', 8, 19);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (392, 'Tomi Juric', '1991-07-22', 'Australia', 'Luzern', 9, 19);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (393, 'Robbie Kruse', '1988-10-05', 'Australia', 'VfL Bochum', 10, 19);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (394, 'Andrew Nabbout', '1992-12-17', 'Australia', 'Urawa Red Diamons', 11, 19);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (395, 'Brad Jones', '1982-03-19', 'Australia', 'Feyenoord', 12, 19);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (396, 'Aaron Mooy', '1990-09-15', 'Australia', 'Huddersfield Town', 13, 19);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (397, 'Jamie Maclaren', '1993-07-29', 'Australia', 'Hibernian', 14, 19);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (398, 'Mile Jedinak', '1984-08-03', 'Australia', 'Aston Villa', 15, 19);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (399, 'Aziz Behich', '1990-12-16', 'Australia', 'Bursaspor', 16, 19);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (400, 'Daniel Arzani', '1999-01-04', 'Australia', 'Melbourne City', 17, 19);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (401, 'Danny Vukovic', '1985-03-27', 'Australia', 'Genk', 18, 19);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (402, 'Josh Risdon', '1992-07-27', 'Australia', 'Western Sydney Wanderers', 19, 19);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (403, 'Tren Sainsbury', '1992-01-05', 'Australia', 'Grasshopper', 20, 19);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (404, 'Dimitri Petratos', '1992-11-10', 'Australia', 'Newcastle Jets', 21, 19);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (405, 'Jackson Irvine', '1993-03-07', 'Australia', 'Hull City', 22, 19);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (406, 'Tom Rogic', '1992-12-16', 'Australia', 'Celtic', 23, 19);
+
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (407, 'Farouk Ben Mustapha', '1989-07-01','Tunisia', 'Al Shabab', 1, 20);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (408, 'Syam Ben Youssef', '1989-03-31', 'Tunisia', 'Kasimpasa', 2, 20);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (409, 'Yohan Benalouane', '1987-03-28', 'Tunisia', 'Leicester City', 3, 20);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (410, 'Yassine Meriah', '1993-07-02', 'Tunisia', 'CS Sfaxien', 4, 20);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (411, 'Oussama Haddadi', '1992-01-28', 'Tunisia', 'Dijon', 5, 20);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (412, 'Rami Bedoui', '1889-01-19', 'Tunisia', 'Etoile du Sahel', 6, 20);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (413, 'Saif-Eddine Khaoui', '1995-04-27', 'Tunisia', 'Troyes', 7, 20);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (414, 'Fakhreddine Ben Youssef', '1991-06-23', 'Tunisia', 'Al-Ettifaq', 8, 20);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (415, 'Anice Badri', '1990-09-18', 'Tunisia', 'Esperance de Tunis', 9, 20);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (416, 'Wahbi Khazri', '1991-02-08', 'Tunisia', 'Rennes', 10, 20);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (417, 'Dylan Bronn', '1995-06-19', 'Tunisia', 'Gent', 11, 20);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (418, 'Ali Maaloul', '1990-01-01', 'Tunisia', 'Al Ahly', 12, 20);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (419, 'Ferjani Sassi', '1992-03-18', 'Tunisia', 'Al Nassr', 13, 20);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (420, 'Mohamed Amine Ben Amor', '1992-05-03', 'Tunisia', 'Al Ahli', 14, 20);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (421, 'Ahmed Khalil', '1994-12-21', 'Tunisia', 'Club Africain', 15, 20);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (422, 'Aymen Mathlouthi', '1984-09-14', 'Tunisia', 'Al Batin', 16, 20);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (423, 'Ellyes Skhiri', '1995-05-10', 'Tunisia', 'Montpellier', 17, 20);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (424, 'Bassem Srarfi', '1997-06-25', 'Tunisia', 'Nice', 18, 20);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (425, 'Saber Khalifa', '1986-10-14', 'Tunisia', 'Club Africain', 19, 20);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (426, 'Ghailene Chaalali', '1994-02-28', 'Tunisia', 'Esperance de Tunis', 20, 20);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (427, 'Hamdi Nagguez', '1992-10-28', 'Tunisia', 'Zamalek', 21, 20);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (428, 'Mouez Hassen', '1995-03-05', 'Tunisia', 'Chateauroux', 22, 20);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (429, 'Naim Sliti', '1992-07-27', 'Tunisia', 'Dijon', 23, 20);
 
 
 /* Eventos */
