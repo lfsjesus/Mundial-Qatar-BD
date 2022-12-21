@@ -371,268 +371,268 @@ VALUES (3, 24 /* Egito */, 0);
 
 /* Grupo B */
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (1, 8 /* Espanha */, 1);
+VALUES (4, 8 /* Espanha */, 1);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (2, 8 /* Espanha */, 4);
+VALUES (5, 8 /* Espanha */, 4);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (3, 8 /* Espanha */, 5);
+VALUES (6, 8 /* Espanha */, 5);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (1, 3 /* Portugal */, 1);
+VALUES (4, 3 /* Portugal */, 1);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (2, 3 /* Portugal */, 4);
+VALUES (5, 3 /* Portugal */, 4);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (3, 3 /* Portugal */, 5);
+VALUES (6, 3 /* Portugal */, 5);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (1, 15 /* Ira */, 1);
+VALUES (4, 15 /* Ira */, 1);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (2, 15 /* Ira */, 1);
+VALUES (5, 15 /* Ira */, 1);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (3, 15 /* Ira */, 4);
+VALUES (6, 15 /* Ira */, 4);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (1, 22 /* Marrocos */, 1);
+VALUES (4, 22 /* Marrocos */, 1);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (2, 22 /* Marrocos */, 1);
+VALUES (5, 22 /* Marrocos */, 1);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (3, 22 /* Marrocos */, 1);
+VALUES (6, 22 /* Marrocos */, 1);
 
 
 /* Grupo C */
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (1, 2 /* Franca */, 1);
+VALUES (7, 2 /* Franca */, 1);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (2, 2 /* Franca */, 4);
+VALUES (8, 2 /* Franca */, 4);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (3, 2 /* Franca */, 7);
+VALUES (9, 2 /* Franca */, 7);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (1, 14 /* Dinamarca */, 1);
+VALUES (7, 14 /* Dinamarca */, 1);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (2, 14 /* Dinamarca */, 2);
+VALUES (8, 14 /* Dinamarca */, 2);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (3, 14 /* Dinamarca */, 5);
+VALUES (9, 14 /* Dinamarca */, 5);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (1, 32 /* Peru */, 3);
+VALUES (7, 32 /* Peru */, 3);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (2, 32 /* Peru */, 3);
+VALUES (8, 32 /* Peru */, 3);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (3, 32 /* Peru */, 3);
+VALUES (9, 32 /* Peru */, 3);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (1, 19 /* Australia */, 0);
+VALUES (7, 19 /* Australia */, 0);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (2, 19 /* Australia */, 1);
+VALUES (8, 19 /* Australia */, 1);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (3, 19 /* Australia */, 1);
+VALUES (9, 19 /* Australia */, 1);
 
 
 /* Grupo D */
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (1, 12 /* Croacia */, 3);
+VALUES (10, 12 /* Croacia */, 3);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (2, 12 /* Croacia */, 6);
+VALUES (11, 12 /* Croacia */, 6);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (3, 12 /* Croacia */, 9);
+VALUES (12, 12 /* Croacia */, 9);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (1, 30 /* Argentina */, 3);
+VALUES (10, 30 /* Argentina */, 3);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (2, 30 /* Argentina */, 3);
+VALUES (11, 30 /* Argentina */, 3);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (3, 30 /* Argentina */, 4);
+VALUES (12, 30 /* Argentina */, 4);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (1, 21 /* Nigeria */, 0);
+VALUES (10, 21 /* Nigeria */, 0);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (2, 21 /* Nigeria */, 3);
+VALUES (11, 21 /* Nigeria */, 3);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (3, 21 /* Nigeria */, 3);
+VALUES (12, 21 /* Nigeria */, 3);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (1, 10 /* Islandia */, 0);
+VALUES (10, 10 /* Islandia */, 0);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (2, 10 /* Islandia */, 0);
+VALUES (11, 10 /* Islandia */, 0);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (3, 10 /* Islandia */, 1);
+VALUES (12, 10 /* Islandia */, 1);
 
 
 /* Grupo E */
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (1, 28 /* Brasil */, 3);
+VALUES (13, 28 /* Brasil */, 3);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (2, 28 /* Brasil */, 6);
+VALUES (14, 28 /* Brasil */, 6);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (3, 28 /* Brasil */, 7);
+VALUES (15, 28 /* Brasil */, 7);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (1, 11 /* Suica */, 1);
+VALUES (13, 11 /* Suica */, 1);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (2, 11 /* Suica */, 4);
+VALUES (14, 11 /* Suica */, 4);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (3, 11 /* Suica */, 5);
+VALUES (15, 11 /* Suica */, 5);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (1, 5 /* Servia */, 0);
+VALUES (13, 5 /* Servia */, 0);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (2, 5 /* Servia */, 0);
+VALUES (14, 5 /* Servia */, 0);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (3, 5 /* Servia */, 3);
+VALUES (15, 5 /* Servia */, 3);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (1, 26 /* Costa Rica */, 1);
+VALUES (13, 26 /* Costa Rica */, 1);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (2, 26 /* Costa Rica */, 1);
+VALUES (14, 26 /* Costa Rica */, 1);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (3, 26 /* Costa Rica */, 1);
+VALUES (15, 26 /* Costa Rica */, 1);
 
 
 /* Grupo F */
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (1, 13 /* Suecia */, 3);
+VALUES (16, 13 /* Suecia */, 3);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (2, 13 /* Suecia */, 3);
+VALUES (17, 13 /* Suecia */, 3);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (3, 13 /* Suecia */, 6);
+VALUES (18, 13 /* Suecia */, 6);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (1, 25 /* Mexico */, 0);
+VALUES (16, 25 /* Mexico */, 0);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (2, 25 /* Mexico */, 3);
+VALUES (17, 25 /* Mexico */, 3);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (3, 25 /* Mexico */, 6);
+VALUES (18, 25 /* Mexico */, 6);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (1, 16 /* Coreia do Sul */, 3);
+VALUES (16, 16 /* Coreia do Sul */, 3);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (2, 16 /* Coreia do Sul */, 3);
+VALUES (17, 16 /* Coreia do Sul */, 3);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (3, 16 /* Coreia do Sul */, 3);
+VALUES (18, 16 /* Coreia do Sul */, 3);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (1, 4 /* Alemanha */, 0);
+VALUES (16, 4 /* Alemanha */, 0);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (2, 4 /* Alemanha */, 3);
+VALUES (17, 4 /* Alemanha */, 3);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (3, 4 /* Alemanha */, 3);
+VALUES (18, 4 /* Alemanha */, 3);
 
 
 /* Grupo G */
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (1, 9 /* Belgica */, 3);
+VALUES (19, 9 /* Belgica */, 3);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (2, 9 /* Belgica */, 6);
+VALUES (20, 9 /* Belgica */, 6);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (3, 9 /* Belgica */, 9);
+VALUES (21, 9 /* Belgica */, 9);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (1, 7 /* Inglaterra */, 0);
+VALUES (19, 7 /* Inglaterra */, 0);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (2, 7 /* Inglaterra */, 3);
+VALUES (20, 7 /* Inglaterra */, 3);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (3, 7 /* Inglaterra */, 6);
+VALUES (21, 7 /* Inglaterra */, 6);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (1, 20 /* Tunisia */, 3);
+VALUES (19, 20 /* Tunisia */, 3);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (2, 20 /* Tunisia */, 3);
+VALUES (20, 20 /* Tunisia */, 3);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (3, 20 /* Tunisia */, 3);
+VALUES (21, 20 /* Tunisia */, 3);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (1, 27 /* Panama */, 0);
+VALUES (19, 27 /* Panama */, 0);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (2, 27 /* Panama */, 0);
+VALUES (20, 27 /* Panama */, 0);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (3, 27 /* Panama */, 0);
+VALUES (21, 27 /* Panama */, 0);
 
 
 /* Grupo H */
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (1, 31 /* Colombia */, 3);
+VALUES (22, 31 /* Colombia */, 3);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (2, 31 /* Colombia */, 6);
+VALUES (23, 31 /* Colombia */, 6);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (3, 31 /* Colombia */, 6);
+VALUES (24, 31 /* Colombia */, 6);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (1, 17 /* Japao */, 0);
+VALUES (22, 17 /* Japao */, 0);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (2, 17 /* Japao */, 1);
+VALUES (23, 17 /* Japao */, 1);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (3, 17 /* Japao */, 4);
+VALUES (24, 17 /* Japao */, 4);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (1, 23 /* Senegal */, 0);
+VALUES (22, 23 /* Senegal */, 0);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (2, 23 /* Senegal */, 1);
+VALUES (23, 23 /* Senegal */, 1);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (3, 23 /* Senegal */, 4);
+VALUES (24, 23 /* Senegal */, 4);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (1, 6 /* Polonia */, 3);
+VALUES (22, 6 /* Polonia */, 3);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (2, 6 /* Polonia */, 3);
+VALUES (23, 6 /* Polonia */, 3);
 
 INSERT INTO PontuacaoJornada (jornada, equipa, pontos)
-VALUES (3, 6 /* Polonia */, 3);
+VALUES (24, 6 /* Polonia */, 3);
 
 INSERT INTO Jogo (Id, dia, resultado, jornada, faseElim, estadio) VALUES (1, '2018-06-14', '5-0', 1, NULL, 1);
 INSERT INTO Jogo (Id, dia, resultado, jornada, faseElim, estadio) VALUES (2, '2018-06-15', '0-1', 1, NULL, 2);
