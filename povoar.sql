@@ -1157,7 +1157,7 @@ VALUES (32, 'Ricardo Gareca', '1958-02-10', 'Argentina', 32);
 
 /* Jogadores */
 INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (1, 'Igor Akinfeev', '1986-04-08', 'Russia', 'CSKA Moscow', 1, 1);
-INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (2, 'Mario Fernandes', '1990--09-19', 'Brasil', 'CSKA Moscow', 2, 1);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (2, 'Mario Fernandes', '1990-09-19', 'Brasil', 'CSKA Moscow', 2, 1);
 INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (3, 'Ilya Kutepov', '1993-07-29', 'Russia', 'Spartak Moscow', 3, 1);
 INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (4, 'Sergei Ignashevich', '1979-07-14', 'Russia', 'CSKA Moscow', 4, 1);
 INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (5, 'Andrei Semyonov', '1989-03-24', 'Russia', 'Akhmat Grozny', 5, 1);
@@ -1641,7 +1641,7 @@ INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa)
 INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (431, 'Brian Idowu', '1992-05-18', 'Nigeria', 'Amkar Perm', 2, 21);
 INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (432, 'Elderson Echiejile', '1988-01-20', 'Nigeria', 'Cercle Brugge', 3, 21);
 INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (433, 'Wilfred Ndidi', '1996-12-16', 'Nigeria', 'Leicester City', 4, 21);
-INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (434, 'William Troost-Ekong', '19993-09-01', 'Nigeria', 'Bursaspor', 5, 21);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (434, 'William Troost-Ekong', '1993-09-01', 'Nigeria', 'Bursaspor', 5, 21);
 INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (435, 'Leon Balogun', '1988-06-28', 'Nigeria', 'Mainz 05', 6, 21);
 INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (436, 'Ahmed Musa', '1992-10-14', 'Nigeria', 'CSKA Moscow', 7, 21);
 INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (437, 'Peter Etebo', '1995-11-09', 'Nigeria', 'Las Palmas', 8, 21);
@@ -1870,7 +1870,7 @@ INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa)
 INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (651, 'Enzo Perez', '1986-02-22', 'Argentina', 'River Plate', 15, 30);
 INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (652, 'Marcos Rojo', '1990-03-20', 'Argentina', 'Manchester United', 16, 30);
 INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (653, 'Nicolas Otamendi', '1988-02-12', 'Argentina', 'Manchester City', 17, 30);
-INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (654, 'Eduardo Salvio', '19990-07-13', 'Argentina', 'Benfica', 18, 30);
+INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (654, 'Eduardo Salvio', '1990-07-13', 'Argentina', 'Benfica', 18, 30);
 INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (655, 'Sergio Aguero', '1988-06-02', 'Argentina', 'Manchester CIty', 19, 30);
 INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (656, 'Giovani Lo Celso', '1996-04-09', 'Argentina', 'Paris Saint-Germain', 20, 30);
 INSERT INTO Jogador (Id, nome, dataNascimento, pais, clubeAtual, numero, equipa) VALUES (657, 'Paulo Dybala', '1993-11-15', 'Argentina', 'Juventus', 21, 30);
