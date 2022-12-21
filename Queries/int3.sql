@@ -4,5 +4,5 @@ SELECT arbitro, tipo
 FROM TipoArbitro JOIN Jogo ON Jogo.Id = TipoArbitro.jogo
 WHERE Jogo.estadio = (SELECT Id FROM Estadio WHERE nome = 'Luzhniki');
 
-SELECT nome, dataNascimento, tipo
+SELECT nome, dataNascimento, idade, tipo
 FROM Jogos_Luzhniki JOIN Arbitro ON Jogos_Luzhniki.arbitro = Arbitro.Id;
