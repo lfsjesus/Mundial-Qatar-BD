@@ -2650,3 +2650,32 @@ INSERT INTO Substituicao (evento, jogadorEntra, jogadorSai) VALUES (221, 139, 14
 INSERT INTO Evento (Id, jogo, minuto) VALUES (222, 20, 92);
 INSERT INTO Cartao (evento, jogador, cor) VALUES (222, 300, 'amarelo');
 
+
+/* Eventos - Jogo 21 */
+
+INSERT INTO Evento (Id, jogo, minuto) VALUES (223, 21, 7);
+INSERT INTO Golo (evento, equipa, jogador, tipo) VALUES (223, 14, 278, 'assistencia');
+
+INSERT INTO Evento (Id, jogo, minuto) VALUES (224, 21, 37);
+INSERT INTO Cartao (evento, jogador, cor) VALUES (224, 288, 'amarelo');
+
+INSERT INTO Evento (Id, jogo, minuto) VALUES (225, 21, 38);
+INSERT INTO Golo (evento, equipa, jogador, tipo) VALUES (225, 19, 398, 'penalti');
+
+INSERT INTO Evento (Id, jogo, minuto) VALUES (226, 21, 59);
+INSERT INTO Substituicao (evento, jogadorEntra, jogadorSai) VALUES (226, 279, 288);
+
+INSERT INTO Evento (Id, jogo, minuto) VALUES (227, 21, 68);
+INSERT INTO Substituicao (evento, jogadorEntra, jogadorSai) VALUES (227, 289, 277);
+
+INSERT INTO Evento (Id, jogo, minuto) VALUES (228, 21, 68);
+INSERT INTO Substituicao (evento, jogadorEntra, jogadorSai) VALUES (228, 400, 393);
+
+INSERT INTO Evento (Id, jogo, minuto) VALUES (229, 21, 75);
+INSERT INTO Substituicao (evento, jogadorEntra, jogadorSai) VALUES (229, 392, 394);
+
+INSERT INTO Evento (Id, jogo, minuto) VALUES (230, 21, 82);
+INSERT INTO Substituicao (evento, jogadorEntra, jogadorSai) VALUES (230, 405, 406);
+
+INSERT INTO Evento (Id, jogo, minuto) VALUES (231, 21, 84);
+INSERT INTO Cartao (evento, jogador, cor) VALUES (231, 291, 'amarelo');
