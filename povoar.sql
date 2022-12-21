@@ -2446,3 +2446,44 @@ INSERT INTO Cartao (evento, jogador, cor) VALUES (159, 160, 'amarelo');
 INSERT INTO Evento (Id, jogo, minuto) VALUES (160, 14, 90);
 INSERT INTO Substituicao (evento, jogadorEntra, jogadorSai) VALUES (160, 175, 159);
 
+
+/* Eventos - Jogo 15 */
+
+INSERT INTO Evento (Id, jogo, minuto) VALUES (161, 15, 3);
+INSERT INTO Cartao (evento, jogador, cor) VALUES (161, 665, 'vermelho');
+
+INSERT INTO Evento (Id, jogo, minuto) VALUES (162, 15, 6);
+INSERT INTO Golo (evento, equipa, jogador, tipo) VALUES (162, 17, 347, 'penalti');
+
+INSERT INTO Evento (Id, jogo, minuto) VALUES (163, 15, 31);
+INSERT INTO Substituicao (evento, jogadorEntra, jogadorSai) VALUES (163, 664, 670);
+
+INSERT INTO Evento (Id, jogo, minuto) VALUES (164, 15, 39);
+INSERT INTO Golo (evento, equipa, jogador, tipo) VALUES (164, 31, 679, 'normal');
+
+INSERT INTO Evento (Id, jogo, minuto) VALUES (165, 15, 59);
+INSERT INTO Substituicao (evento, jogadorEntra, jogadorSai) VALUES (165, 669, 679);
+
+INSERT INTO Evento (Id, jogo, minuto) VALUES (166, 15, 64);
+INSERT INTO Cartao (evento, jogador, cor) VALUES (166, 664, 'amarelo');
+
+INSERT INTO Evento (Id, jogo, minuto) VALUES (167, 15, 70);
+INSERT INTO Substituicao (evento, jogadorEntra, jogadorSai) VALUES (167, 341, 347);
+
+INSERT INTO Evento (Id, jogo, minuto) VALUES (168, 15, 70);
+INSERT INTO Substituicao (evento, jogadorEntra, jogadorSai) VALUES (168, 666, 680);
+
+INSERT INTO Evento (Id, jogo, minuto) VALUES (169, 15, 73);
+INSERT INTO Golo (evento, equipa, jogador, tipo) VALUES (169, 17, 352, 'assistencia');
+
+INSERT INTO Evento (Id, jogo, minuto) VALUES (170, 15, 80);
+INSERT INTO Substituicao (evento, jogadorEntra, jogadorSai) VALUES (170, 353, 344);
+
+INSERT INTO Evento (Id, jogo, minuto) VALUES (171, 15, 85);
+INSERT INTO Substituicao (evento, jogadorEntra, jogadorSai) VALUES (171, 346, 352);
+
+INSERT INTO Evento (Id, jogo, minuto) VALUES (172, 15, 86);
+INSERT INTO Cartao (evento, jogador, cor) VALUES (172, 669, 'amarelo');
+
+INSERT INTO Evento (Id, jogo, minuto) VALUES (173, 15, 93);
+INSERT INTO Cartao (evento, jogador, cor) VALUES (173, 338, 'amarelo');
