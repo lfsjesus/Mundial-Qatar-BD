@@ -142,6 +142,7 @@ CREATE TABLE Treinador (
     Id INT CHECK (Id >= 0),
     nome TEXT NOT NULL,
     dataNascimento DATE NOT NULL,
+    idade GENERATED ALWAYS as (strftime('%Y', '2022-12-31') - strftime('%Y', dataNascimento)),
     pais TEXT NOT NULL,
     equipa INT NOT NULL,
     PRIMARY KEY (Id),
@@ -153,6 +154,7 @@ CREATE TABLE Arbitro (
     Id INT CHECK (Id >= 0),
     nome TEXT NOT NULL,
     dataNascimento DATE NOT NULL,
+    idade GENERATED ALWAYS as (strftime('%Y', '2022-12-31') - strftime('%Y', dataNascimento)),
     pais TEXT NOT NULL,
     PRIMARY KEY (Id)
 );
