@@ -1999,9 +1999,6 @@ INSERT INTO Cartao (evento, jogador, cor) VALUES (22, 504, 'amarelo');
 
 /* Eventos - Jogo 3 */
 
-22 - Marrocos
-15 - Ira
-
 INSERT INTO Evento (Id, jogo, minuto) VALUES (23, 3, 10);
 INSERT INTO Cartao (evento, jogador, cor) VALUES (23, 298, 'amarelo');
 
@@ -2034,3 +2031,49 @@ INSERT INTO Cartao (evento, jogador, cor) VALUES (32, 301, 'amarelo');
 
 INSERT INTO Evento (Id, jogo, minuto) VALUES (33, 3, 95);
 INSERT INTO Golo (evento, equipa, jogador, tipo) VALUES (33, 15, 472, 'auto-golo');
+
+
+/* Eventos - Jogo 4 */
+
+INSERT INTO Evento (Id, jogo, minuto) VALUES (34, 4, 4);
+INSERT INTO Golo (evento, equipa, jogador, tipo) VALUES (34, 3, 53, 'penalti');
+
+INSERT INTO Evento (Id, jogo, minuto) VALUES (35, 4, 17);
+INSERT INTO Cartao (evento, jogador, cor) VALUES (35, 135, 'amarelo');
+
+INSERT INTO Evento (Id, jogo, minuto) VALUES (36, 4, 24);
+INSERT INTO Golo (evento, equipa, jogador, tipo) VALUES (36, 8, 149, 'normal');
+
+INSERT INTO Evento (Id, jogo, minuto) VALUES (37, 4, 28);
+INSERT INTO Cartao (evento, jogador, cor) VALUES (37, 706, 'amarelo');
+
+INSERT INTO Evento (Id, jogo, minuto) VALUES (38, 4, 44);
+INSERT INTO Golo (evento, equipa, jogador, tipo) VALUES (38, 3, 53, 'assistencia');
+
+INSERT INTO Evento (Id, jogo, minuto) VALUES (39, 4, 55);
+INSERT INTO Golo (evento, equipa, jogador, tipo) VALUES (39, 8, 149, 'assistencia');
+
+INSERT INTO Evento (Id, jogo, minuto) VALUES (40, 4, 58);
+INSERT INTO Golo (evento, equipa, jogador, tipo) VALUES (40, 8, 134, 'normal');
+
+INSERT INTO Evento (Id, jogo, minuto) VALUES (41, 4, 68);
+INSERT INTO Substituicao (evento, jogadorEntra, jogadorSai) VALUES (41, 56, 706);
+
+INSERT INTO Evento (Id, jogo, minuto) VALUES (42, 4, 69);
+INSERT INTO Substituicao (evento, jogadorEntra, jogadorSai) VALUES (42, 710, 57);
+
+INSERT INTO Evento (Id, jogo, minuto) VALUES (43, 4, 70);
+INSERT INTO Substituicao (evento, jogadorEntra, jogadorSai) VALUES (43, 140, 136);
+
+INSERT INTO Evento (Id, jogo, minuto) VALUES (44, 4, 77);
+INSERT INTO Substituicao (evento, jogadorEntra, jogadorSai) VALUES (44, 147, 149);
+
+INSERT INTO Evento (Id, jogo, minuto) VALUES (45, 4, 80);
+INSERT INTO Substituicao (evento, jogadorEntra, jogadorSai) VALUES (45, 55, 707);
+
+INSERT INTO Evento (Id, jogo, minuto) VALUES (46, 4, 86);
+INSERT INTO Substituicao (evento, jogadorEntra, jogadorSai) VALUES (46, 141, 151);
+
+INSERT INTO Evento (Id, jogo, minuto) VALUES (47, 4, 88);
+INSERT INTO Golo (evento, equipa, jogador, tipo) VALUES (47, 3, 53, 'normal');
+
