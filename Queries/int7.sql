@@ -1,5 +1,6 @@
-/* É suposto mostrar o nome da equipa */
-SELECT equipa, MAX(n_golos)
-FROM (SELECT equipa, COUNT(*) n_golos
-      FROM Golo
-      GROUP BY equipa) t;
+SELECT equipa.pais, nome, MAX(golos) as max_goals
+FROM Equipa JOIN Jogador ON equipa.Id = jogador.equipa
+            JOIN (SELECT jogador, COUNT(*) as golos FROM Golo
+                  GROUP BY jogador) ON jogador.Id = jogador
+GROUP BY equipa.pais
+ORDER BY max_goals DESC;
