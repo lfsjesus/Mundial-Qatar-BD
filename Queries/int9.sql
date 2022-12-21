@@ -1,3 +1,7 @@
+.mode columns
+.headers on
+.nullvalue NULL
+
 SELECT Evento.Id eID, Evento.minuto minuto
 FROM (SELECT jID, MAX(subst)
 FROM (SELECT Jogo.Id jID, COUNT(*) subst

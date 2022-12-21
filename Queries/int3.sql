@@ -1,3 +1,7 @@
+.mode columns
+.headers on
+.nullvalue NULL
+
 DROP VIEW IF EXISTS Jogos_Luzhniki;
 CREATE VIEW Jogos_Luzhniki AS 
 SELECT arbitro, tipo

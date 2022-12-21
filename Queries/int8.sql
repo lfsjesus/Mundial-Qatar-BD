@@ -1,3 +1,7 @@
+.mode columns
+.headers on
+.nullvalue NULL
+
 SELECT Jogo.Id, Jogo.resultado FROM Jogo JOIN Evento ON Jogo.Id = Evento.jogo
                                          JOIN Golo ON Evento.Id = Golo.evento
                                          JOIN Equipa ON Golo.equipa = Equipa.Id

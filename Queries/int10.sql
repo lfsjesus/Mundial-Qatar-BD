@@ -1,3 +1,7 @@
+.mode columns
+.headers on
+.nullvalue NULL
+
 SELECT nome, idade, pais
 FROM Treinador JOIN (SELECT Equipa.Id eqID, COUNT(*) n_cartoes
 FROM Equipa JOIN Jogador ON Equipa.Id = Jogador.equipa

@@ -1,3 +1,7 @@
+.mode columns
+.headers on
+.nullvalue NULL
+
 SELECT equipa.pais, nome, MAX(golos) as max_goals
 FROM Equipa JOIN Jogador ON equipa.Id = jogador.equipa
             JOIN (SELECT jogador, COUNT(*) as golos FROM Golo

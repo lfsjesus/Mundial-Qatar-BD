@@ -1,3 +1,7 @@
+.mode columns
+.headers on
+.nullvalue NULL
+
 SELECT Grupo.letra, Equipa.pais, max(pontos) as total_points
 FROM Grupo JOIN Jornada ON Grupo.letra = Jornada.grupo
            JOIN PontuacaoJornada ON Jornada.Id = PontuacaoJornada.jornada
