@@ -2,8 +2,8 @@
 2) Listar todos os jogadores - nome, data de nascimento e clube atual - com mais de 35 anos.
 3) Listar todos os árbitros - nome, idade e tipo - que arbitraram jogos no estádio X.
 4) Listar equipas que, em alguma altura da competição, viram um jogador seu a sair do campo porque teve um cartão vermelho.
-5) Listar as duas primeiras equipas de cada um dos grupos no final da fase de grupos (melhor qualificadas).
-6) De entre as equipas que chegaram às eliminatórias, mostrar a média de golos por jogo de cada uma
+5) Listar a primeiras equipas de cada um dos grupos no final da fase de grupos (melhor qualificadas).
+6) Mostrar a média de golos por jogo de cada equipa ao longo da fase de grupos
 7) Indicar o nome do melhor marcador de cada equipa - se houver empate, mostrar todos.
 8) Listar todos os jogos (id, data, estádio, equipa1 e equipa2) em que apenas uma equipa marcou
 9) Listar todos os eventos do jogo com mais substiuições das fases eliminatórias.
